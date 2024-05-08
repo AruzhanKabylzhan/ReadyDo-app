@@ -1,0 +1,134 @@
+ext {
+    versions = [
+            coreKtx: "1.10.1",
+            activityCompose: "1.8.0-beta01",
+            lifecycle: "2.6.1",
+            coroutines: "1.7.2",
+            materialCompose: "1.4.3",
+            material3: "1.1.1",
+            junit: "4.13.2",
+            timber: "5.0.1",
+            coil: "2.4.0",
+            gson: "2.10.1",
+            retrofit: "2.9.0",
+            koin: "3.4.2",
+            koinCompose: "3.4.5",
+            navigationReimagined: "1.5.0",
+            splashscreen: "1.0.1",
+            accompanistVersion: "0.30.1",
+            securityCrypto: "1.1.0-alpha06",
+            chucker: "4.0.0",
+            shimmer: "1.2.0",
+            paging: "3.1.1",
+            pagingCompose: "1.0.0-alpha17",
+            processPhoenix: "2.1.2",
+            calendar: "2.4.0",
+            composeZoom: "0.5.0",
+            balloon: "1.6.0",
+            composeBom: "2023.09.00",
+            exoPlayer: "1.1.1",
+            litr: "1.5.5",
+            exifinterface: "1.3.6",
+            lottie: "6.1.0",
+            libPhoneNumber: "8.13.26",
+            signaturePad: "0.1.2",
+            imageCropper: "4.5.0",
+            googleMapsCompose: "4.3.0",
+            googleMapsService: "18.1.0",
+            googleMapsServiceLocation: "21.0.1",
+    ]
+
+    accompanist = [
+            pager             : "com.google.accompanist:accompanist-pager:$versions.accompanistVersion",
+            pagerIndicators   : "com.google.accompanist:accompanist-pager-indicators:$versions.accompanistVersion",
+            swiperefresh      : "com.google.accompanist:accompanist-swiperefresh:$versions.accompanistVersion",
+            flowLayout        : "com.google.accompanist:accompanist-flowlayout:$versions.accompanistVersion",
+            webview           : "com.google.accompanist:accompanist-webview:$versions.accompanistVersion",
+            permissions       : "com.google.accompanist:accompanist-permissions:$versions.accompanistVersion",
+    ]
+
+    coreKtx = "androidx.core:core-ktx:$versions.coreKtx"
+    lifecycleRuntime = "androidx.lifecycle:lifecycle-runtime-ktx:$versions.lifecycle"
+    androidxLifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel:$versions.lifecycle"
+    androidxLifecycleViewModelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle"
+    androidxLifecycleCommon = "androidx.lifecycle:lifecycle-common-java8:$versions.lifecycle"
+
+    androidxSecurityCrypto = "androidx.security:security-crypto:$versions.securityCrypto"
+
+    composeBom = "androidx.compose:compose-bom:$versions.composeBom"
+    composeUi = "androidx.compose.ui:ui"
+    composeUiUtil = "androidx.compose.ui:ui-util"
+    composeRuntime = "androidx.compose.runtime:runtime"
+    activityCompose = "androidx.activity:activity-compose:$versions.activityCompose"
+    composeToolingPreview = "androidx.compose.ui:ui-tooling-preview"
+    composeDebugTooling = "androidx.compose.ui:ui-tooling"
+    composeDebugTestManifest = "androidx.compose.ui:ui-test-manifest"
+
+    materialCompose = "androidx.compose.material:material:$versions.materialCompose"
+    material3 = "androidx.compose.material3:material3:$versions.material3"
+
+    navigation = [
+            base     : "dev.olshevski.navigation:reimagined:$versions.navigationReimagined" ,
+            material : "dev.olshevski.navigation:reimagined-material:$versions.navigationReimagined"
+    ]
+
+
+    splashscreen = "androidx.core:core-splashscreen:$versions.splashscreen"
+
+    junit = "junit:junit:$versions.junit"
+
+    coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
+    coroutinesTest = "org.jetbrains.kotlinx:kotlinx-coroutines-test:$versions.coroutines"
+    coroutinesPlayServices = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:$versions.coroutines"
+
+    koin = "io.insert-koin:koin-android:$versions.koin"
+    koinCompose = "io.insert-koin:koin-androidx-compose:$versions.koinCompose"
+
+    timber = "com.jakewharton.timber:timber:$versions.timber"
+
+    coil = "io.coil-kt:coil-compose:$versions.coil"
+    shimmer = "com.valentinilk.shimmer:compose-shimmer:$versions.shimmer"
+
+    paging = "androidx.paging:paging-runtime:$versions.paging"
+    pagingCompose = "androidx.paging:paging-compose:$versions.pagingCompose"
+
+    gson = "com.google.code.gson:gson:$versions.gson"
+
+    retrofit = "com.squareup.retrofit2:retrofit:$versions.retrofit"
+    retrofitConverterGson = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+
+    chuckerDebug = "com.github.chuckerteam.chucker:library:$versions.chucker"
+    chuckerRelease = "com.github.chuckerteam.chucker:library-no-op:$versions.chucker"
+
+    processPhoenix = "com.jakewharton:process-phoenix:$versions.processPhoenix"
+
+    calendar = [
+            compose: "com.kizitonwose.calendar:compose:$versions.calendar",
+            data: "com.kizitonwose.calendar:data:$versions.calendar"
+    ]
+
+    vicoChartsCore = "com.patrykandpatrick.vico:core:$versions.vicoCharts"
+    vicoChartsCompose = "com.patrykandpatrick.vico:compose:$versions.vicoCharts"
+
+    composeZoom = "com.github.SmartToolFactory:Compose-Zoom:$versions.composeZoom"
+
+    balloon = "com.github.skydoves:balloon-compose:$versions.balloon"
+
+    exoPlayer = "androidx.media3:media3-exoplayer:$versions.exoPlayer"
+    exoPlayerDash = "androidx.media3:media3-exoplayer-dash:$versions.exoPlayer"
+    exoPlayerUi = "androidx.media3:media3-ui:$versions.exoPlayer"
+
+    litr = "com.linkedin.android.litr:litr:$versions.litr"
+    exifinterface = "androidx.exifinterface:exifinterface:$versions.exifinterface"
+
+    lottie = "com.airbnb.android:lottie-compose:$versions.lottie"
+    libPhoneNumber = "com.googlecode.libphonenumber:libphonenumber:$versions.libPhoneNumber"
+
+    signaturePad = "se.warting.signature:signature-pad:$versions.signaturePad"
+    imageCropper = "com.vanniktech:android-image-cropper:$versions.imageCropper"
+
+    googleMapsCompose = "com.google.maps.android:maps-compose:$versions.googleMapsCompose"
+    googleMapsUtils = "com.google.maps.android:maps-compose-utils:$versions.googleMapsCompose"
+    googleMapsService = "com.google.android.gms:play-services-maps:$versions.googleMapsService"
+    googleMapsServiceLocation = "com.google.android.gms:play-services-location:$versions.googleMapsServiceLocation"
+}

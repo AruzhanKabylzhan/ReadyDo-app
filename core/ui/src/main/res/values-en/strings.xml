@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Common-->
+    <string name="error_app_for_intent_not_found">No application was found on the device to perform the action</string>
+    <string name="common_settings">Settings</string>
+    <string name="common_permission_permit">Allow</string>
+    <string name="common_permission_later">Later</string>
+    <string name="common_permission_gelocation_title">Access to geo-data</string>
+    <string name="common_permission_gelocation_description">Marking requires access to geo-data</string>
+
+    <string name="common_permission_audio_title">Need access to a microphone</string>
+    <string name="common_permission_audio_description">To record audio, you need access to a microphone.\nGo to the application settings and enable access</string>
+
+    <string name="common_permission_location_title">Geolocation is disabled</string>
+    <string name="common_permission_location_description">Please enable location detection for the app to work correctly.</string>
+
+    <string name="common_checklist_check_out_title">You can\'t check the box</string>
+    <string name="common_checklist_check_out_description">You\'ve already missed this day</string>
+
+    <string name="common_checklist_check_in_title">You can\'t check the box</string>
+    <string name="common_checklist_check_in_description">You haven\'t started the day yet</string>
+
+    <string name="common_take_off_title">You can\'t take time off</string>
+    <string name="common_take_off_description">You\'ve already missed this day</string>
+
+    <string name="common_logout_title">Are you sure you want to get out?</string>
+    <string name="common_logout_description">Are you sure you want to get out?</string>
+    <string name="common_delete_description">Are you sure you want to delete it?</string>
+
+    <string name="documents_saved">File is saved in “/Documents“ folder!</string>
+    <string name="common_done">Done</string>
+
+    <string name="common_all">All</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_cancel_action">Cancel</string>
+    <string name="common_password">Password</string>
+    <string name="common_password_hint">Enter password</string>
+    <string name="common_registration">Registration</string>
+    <string name="common_sec">%d sec</string>
+    <string name="common_continue">Continue</string>
+    <string name="common_apply">Apply</string>
+    <string name="common_hour">%.1f h</string>
+    <string name="common_hour_clearly">%s h</string>
+    <string name="common_hour_and_min">%d h\n%d min</string>
+    <string name="common_hour_and_min_check_in">%d h %d min</string>
+    <string name="common_min">%d min</string>
+    <string name="common_logout">Log out</string>
+    <string name="common_year">Year</string>
+    <string name="common_month">Month</string>
+    <string name="common_today">Today</string>
+    <string name="common_add">Add</string>
+    <string name="common_start">Begin</string>
+    <string name="common_end">End</string>
+    <string name="common_detailed">Details</string>
+    <string name="common_other">Other</string>
+    <string name="common_back">Back</string>
+    <string name="common_crop">Crop</string>
+    <string name="common_view">Watch</string>
+    <string name="common_attention">Attention!</string>
+
+    <string name="common_no_data">No data</string>
+    <string name="common_no_search_data">Nothing found</string>
+    <string name="common_no_search_data_description">There is no matching data for your request</string>
+    <string name="common_share">Share</string>
+
+    <!--    Common Success-->
+    <string name="common_success_request">Request was successfully sent!</string>
+
+    <string name="common_error_connection">Internet connection error</string>
+    <string name="common_error_unknown">Something went wrong, try again</string>
+    <string name="common_error_required_field">Required field</string>
+
+    <!--    Country names -->
+    <string name="country_kz">Kazakhstan</string>
+    <string name="country_ru">Russia</string>
+    <string name="country_us">USA</string>
+    <string name="country_ae">UAE</string>
+    <string name="country_af">Afghanistan</string>
+    <string name="country_al">Albania</string>
+    <string name="country_dz">Algeria</string>
+    <string name="country_as">American Samoa</string>
+    <string name="country_ad">Andorra</string>
+    <string name="country_ao">Angola</string>
+    <string name="country_ai">Anguilla</string>
+    <string name="country_aq">Antarctica</string>
+    <string name="country_ag">Antigua and Barbuda</string>
+    <string name="country_ar">Argentina</string>
+    <string name="country_am">Armenia</string>
+    <string name="country_aw">Aruba</string>
+    <string name="country_au">Australia</string>
+    <string name="country_at">Austria</string>
+    <string name="country_az">Azerbaijan</string>
+    <string name="country_bs">Bahamas</string>
+    <string name="country_bh">Bahrain</string>
+    <string name="country_bd">Bangladesh</string>
+    <string name="country_bb">Barbados</string>
+    <string name="country_by">Belarus</string>
+    <string name="country_be">Belgium</string>
+    <string name="country_bz">Belize</string>
+    <string name="country_bj">Benin</string>
+    <string name="country_bm">Bermuda</string>
+    <string name="country_bt">Bhutan, Kingdom of</string>
+    <string name="country_bo">Bolivia</string>
+    <string name="country_ba">Bosnia and Herzegovina</string>
+    <string name="country_bw">Botswana</string>
+    <string name="country_br">Brazil</string>
+    <string name="country_bn">Brunei</string>
+    <string name="country_bg">Bulgaria</string>
+    <string name="country_bf">Burkina Faso</string>
+    <string name="country_bi">Burundi</string>
+    <string name="country_kh">Cambodia</string>
+    <string name="country_cm">Cameroon</string>
+    <string name="country_ca">Canada</string>
+    <string name="country_cv">Cape Verde</string>
+    <string name="country_ky">Cayman Islands</string>
+    <string name="country_cf">Central African Republic</string>
+    <string name="country_td">Chad</string>
+    <string name="country_cl">Chile</string>
+    <string name="country_cn">China</string>
+    <string name="country_cx">Christmas Island</string>
+    <string name="country_cc">Cocos (Keeling) Islands</string>
+    <string name="country_co">Colombia</string>
+    <string name="country_km">Comoros</string>
+    <string name="country_cg">Congo, (Former Zaire)</string>
+    <string name="country_cd">Congo</string>
+    <string name="country_ck">Cook Islands</string>
+    <string name="country_cr">Costa Rica</string>
+    <string name="country_ci">Cote DIvoire</string>
+    <string name="country_hr">Croatia (Hrvatska)</string>
+    <string name="country_cu">Cuba</string>
+    <string name="country_cy">Cyprus</string>
+    <string name="country_cz">Czech Republic</string>
+    <string name="country_dk">Denmark</string>
+    <string name="country_dj">Djibouti</string>
+    <string name="country_dm">Dominica</string>
+    <string name="country_do">Dominican Republic</string>
+    <string name="country_tl">East Timor</string>
+    <string name="country_ec">Ecuador</string>
+    <string name="country_eg">Egypt</string>
+    <string name="country_sv">El Salvador</string>
+    <string name="country_gq">Equatorial Guinea</string>
+    <string name="country_er">Eritrea</string>
+    <string name="country_ee">Estonia</string>
+    <string name="country_et">Ethiopia</string>
+    <string name="country_fk">Falkland Islands</string>
+    <string name="country_fo">Faroe Islands</string>
+    <string name="country_fj">Fiji</string>
+    <string name="country_fi">Finland</string>
+    <string name="country_fr">France</string>
+    <string name="country_gf">French Guiana or Guyana</string>
+    <string name="country_pf">French Polynesia</string>
+    <string name="country_ga">Gabon (Gabonese Republic)</string>
+    <string name="country_gm">Gambia, The</string>
+    <string name="country_ge">Georgia</string>
+    <string name="country_de">Germany</string>
+    <string name="country_gh">Ghana</string>
+    <string name="country_gi">Gibraltar</string>
+    <string name="country_gr">Greece</string>
+    <string name="country_gl">Greenland</string>
+    <string name="country_gd">Grenada</string>
+    <string name="country_gp">Guadeloupe</string>
+    <string name="country_gu">Guam</string>
+    <string name="country_gt">Guatemala</string>
+    <string name="country_gn">Guinea (Former French Guinea)</string>
+    <string name="country_gw">Guinea-Bissau</string>
+    <string name="country_gy">Guyana</string>
+    <string name="country_ht">Haiti</string>
+    <string name="country_hn">Honduras</string>
+    <string name="country_hk">Hong Kong</string>
+    <string name="country_hu">Hungary</string>
+    <string name="country_is">Iceland</string>
+    <string name="country_in">India</string>
+    <string name="country_id">Indonesia</string>
+    <string name="country_ir">Iran, Islamic Republic of</string>
+    <string name="country_iq">Iraq</string>
+    <string name="country_ie">Ireland</string>
+    <string name="country_il">Israel</string>
+    <string name="country_it">Italy</string>
+    <string name="country_jm">Jamaica</string>
+    <string name="country_jp">Japan</string>
+    <string name="country_jo">Jordan (Former Transjordan)</string>
+    <string name="country_ke">Kenya</string>
+    <string name="country_ki">Kiribati</string>
+    <string name="country_kp">Korea (North Korea)</string>
+    <string name="country_kr">Korea (South Korea)</string>
+    <string name="country_kw">Kuwait</string>
+    <string name="country_kg">Kyrgyzstan</string>
+    <string name="country_la">Laos</string>
+    <string name="country_lv">Latvia</string>
+    <string name="country_lb">Lebanon</string>
+    <string name="country_ls">Lesotho</string>
+    <string name="country_lr">Liberia</string>
+    <string name="country_ly">Libyan Arab Jamahiriya</string>
+    <string name="country_li">Liechtenstein</string>
+    <string name="country_lt">Lithuania</string>
+    <string name="country_lu">Luxembourg</string>
+    <string name="country_mo">Macau</string>
+    <string name="country_mk">Macedonia</string>
+    <string name="country_mg">Madagascar</string>
+    <string name="country_mw">Malawi</string>
+    <string name="country_my">Malaysia</string>
+    <string name="country_mv">Maldives</string>
+    <string name="country_ml">Mali</string>
+    <string name="country_mt">Malta</string>
+    <string name="country_mh">Marshall Islands</string>
+    <string name="country_mq">Martinique (French)</string>
+    <string name="country_mr">Mauritania</string>
+    <string name="country_mu">Mauritius</string>
+    <string name="country_yt">Mayotte</string>
+    <string name="country_mx">Mexico</string>
+    <string name="country_fm">Micronesia</string>
+    <string name="country_md">Moldova</string>
+    <string name="country_mc">Monaco</string>
+    <string name="country_mn">Mongolia</string>
+    <string name="country_ms">Montserrat</string>
+    <string name="country_ma">Morocco</string>
+    <string name="country_mz">Mozambique</string>
+    <string name="country_mm">Myanmar</string>
+    <string name="country_na">Namibia</string>
+    <string name="country_nr">Nauru</string>
+    <string name="country_np">Nepal</string>
+    <string name="country_nl">Netherlands</string>
+    <string name="country_an">Netherlands Antilles</string>
+    <string name="country_nc">New Caledonia</string>
+    <string name="country_nz">New Zealand (Aotearoa)</string>
+    <string name="country_ni">Nicaragua</string>
+    <string name="country_ne">Niger</string>
+    <string name="country_ng">Nigeria</string>
+    <string name="country_nu">Niue</string>
+    <string name="country_nf">Norfolk Island</string>
+    <string name="country_mp">Northern Mariana Islands</string>
+    <string name="country_no">Norway</string>
+    <string name="country_om">Oman</string>
+    <string name="country_pk">Pakistan</string>
+    <string name="country_pw">Palau</string>
+    <string name="country_ps">Palestinian State</string>
+    <string name="country_pa">Panama</string>
+    <string name="country_pg">Papua New Guinea</string>
+    <string name="country_py">Paraguay</string>
+    <string name="country_pe">Peru</string>
+    <string name="country_ph">Philippines</string>
+    <string name="country_pn">Pitcairn Island</string>
+    <string name="country_pl">Poland</string>
+    <string name="country_pt">Portugal</string>
+    <string name="country_pr">Puerto Rico</string>
+    <string name="country_qa">Qatar, State of</string>
+    <string name="country_re">Reunion (French)</string>
+    <string name="country_ro">Romania</string>
+    <string name="country_rw">Rwanda</string>
+    <string name="country_sh">Saint Helena</string>
+    <string name="country_kn">Saint Kitts and Nevis</string>
+    <string name="country_lc">Saint Lucia</string>
+    <string name="country_pm">Saint Pierre and Miquelon</string>
+    <string name="country_vc">Saint Vincent and the Grenadines</string>
+    <string name="country_ws">Samoa</string>
+    <string name="country_sm">San Marino</string>
+    <string name="country_st">Sao Tome and Principe</string>
+    <string name="country_sa">Saudi Arabia</string>
+    <string name="country_rs">Serbia</string>
+    <string name="country_sn">Senegal</string>
+    <string name="country_sc">Seychelles</string>
+    <string name="country_sl">Sierra Leone</string>
+    <string name="country_sg">Singapore</string>
+    <string name="country_sk">Slovakia</string>
+    <string name="country_si">Slovenia</string>
+    <string name="country_sb">Solomon Islands</string>
+    <string name="country_so">Somalia</string>
+    <string name="country_za">South Africa</string>
+    <string name="country_es">Spain</string>
+    <string name="country_lk">Sri Lanka</string>
+    <string name="country_sd">Sudan</string>
+    <string name="country_sr">Suriname</string>
+    <string name="country_sz">Swaziland, Kingdom of</string>
+    <string name="country_se">Sweden</string>
+    <string name="country_ch">Switzerland</string>
+    <string name="country_sy">Syria (Syrian Arab Republic)</string>
+    <string name="country_tw">Taiwan (Former Formosa)</string>
+    <string name="country_tj">Tajikistan</string>
+    <string name="country_tz">Tanzania</string>
+    <string name="country_tn">Tunisia</string>
+    <string name="country_th">Thailand (Former Siam)</string>
+    <string name="country_tg">Togo (Former French Togoland)</string>
+    <string name="country_tk">Tokelau</string>
+    <string name="country_to">Tonga</string>
+    <string name="country_tt">Trinidad and Tobago</string>
+    <string name="country_tr">Turkey</string>
+    <string name="country_tm">Turkmenistan</string>
+    <string name="country_tc">Turks and Caicos Islands</string>
+    <string name="country_tv">Tuvalu (Former Ellice Islands)</string>
+    <string name="country_ug">Uganda, Republic of</string>
+    <string name="country_ua">Ukraine</string>
+    <string name="country_gb">United Kingdom (Great Britain / UK)</string>
+    <string name="country_uy">Uruguay</string>
+    <string name="country_uz">Uzbekistan</string>
+    <string name="country_vu">Vanuatu</string>
+    <string name="country_va">Vatican City State (Holy See)</string>
+    <string name="country_ve">Venezuela</string>
+    <string name="country_vn">Vietnam</string>
+    <string name="country_vg">Virgin Islands, British</string>
+    <string name="country_vi">Virgin Islands, United States</string>
+    <string name="country_wf">Wallis and Futuna Islands</string>
+    <string name="country_ye">Yemen</string>
+    <string name="country_yu">Yugoslavia</string>
+    <string name="country_zr">Zaire</string>
+    <string name="country_zm">Zambia</string>
+    <string name="country_zw">Zimbabwe</string>
+
+    <string name="audio_slide_to_cancel">Slide to cancel</string>
+    <string name="loading_indicator_please_wait">Please wait</string>
+
+    <!--    Language -->
+    <string name="languages">Languages</string>
+    <string name="language_rus">Рус</string>
+    <string name="language_eng">Eng</string>
+    <string name="language_kaz">Қаз</string>
+
+    <!--    Login -->
+    <string name="login_title">Sign in</string>
+    <string name="login_forgot_password">Forgot your password?</string>
+    <string name="login_no_account">Don\'t have an account?</string>
+    <string name="login_restore_account_description">The account has been deleted, do you want to restore the account?</string>
+    <string name="login_account_activated">Your account has been successfully restored</string>
+
+    <!--    Registration  -->
+    <string name="registration_title">Specify phone</string>
+    <string name="registration_next">Continue</string>
+    <string name="registration_accept">I agree with the</string>
+    <string name="registration_privacy_police">privacy policy</string>
+
+    <string name="registration_set_password_title">Create a password</string>
+    <string name="registration_password">Password</string>
+    <string name="registration_password_hint">Enter password</string>
+    <string name="registration_repeat_password">Repeat password</string>
+    <string name="registration_save">Save</string>
+
+    <string name="registration_minimum_characters">Minimum 8 characters</string>
+    <string name="registration_minimum_numbers">Minimum 1 number</string>
+    <string name="registration_minimum_symbol">Minimum 1 characters</string>
+    <string name="registration_minimum_capital_letter">Minimum 1 capital letter</string>
+
+    <string name="registration_password_match_accept">Passwords match</string>
+    <string name="registration_have_account">Use a password to log in</string>
+
+    <!--    Registration Type Choose  -->
+    <string name="registration_type_choose_title">Registration</string>
+    <string name="registration_type_choose_select_type">Choose a category</string>
+    <string name="registration_type_choose_type_company">Company</string>
+    <string name="registration_type_choose_type_employee">Employee</string>
+    <string name="registration_type_choose_already_has_account">Already have account?</string>
+
+    <!--    Registration Type Company -->
+    <string name="registration_company_title">Registration form of company</string>
+    <string name="registration_company_phone_title">Phone</string>
+    <string name="registration_company_name_title">Full name</string>
+    <string name="registration_company_name_hint">Enter full name</string>
+    <string name="registration_company_department_title">Department</string>
+    <string name="registration_company_department_hint">Enter department</string>
+    <string name="registration_company_company_name_title">Company</string>
+    <string name="registration_company_company_name_hint">Enter company</string>
+    <string name="registration_company_business_name_title">Company legal name</string>
+    <string name="registration_company_business_name_hint">Enter company legal name</string>
+    <string name="registration_company_industry_age_title">How many years on the market?</string>
+    <string name="registration_company_industry_age_hint">Enter the number of years</string>
+    <string name="registration_company_amount_of_employees_title">How many employees?</string>
+    <string name="registration_company_amount_of_employees_hint">Enter the number of employees</string>
+    <string name="registration_company_email_title">Email</string>
+    <string name="registration_company_email_hint">Enter email</string>
+    <string name="registration_company_privacy_policy_1">I have read</string>
+    <string name="registration_company_privacy_policy_2">the Privacy and Personal Data Security Policy</string>
+    <string name="registration_company_privacy_policy_3">and agree to the processing of my personal data in accordance with the</string>
+    <string name="registration_company_privacy_policy_4">User Agreement</string>
+    <string name="registration_company_privacy_policy_5">.</string>
+
+    <!--    Registration Invite Code -->
+    <string name="registration_invite_code_title">Enter the company invitation code</string>
+    <string name="registration_invite_code_hint">Enter company code</string>
+
+    <!--    Registration Employee Form -->
+    <string name="registration_employee_form_title">Employee registration form</string>
+    <string name="registration_employee_first_name_title">First name</string>
+    <string name="registration_employee_last_name_title">Last name</string>
+    <string name="registration_employee_middle_name_title">Middle name</string>
+    <string name="registration_employee_first_name_hint">Enter first name</string>
+    <string name="registration_employee_last_name_hint">Enter last name</string>
+    <string name="registration_employee_middle_name_hint">Enter middle name</string>
+
+    <!--    OTP -->
+    <string name="otp_title">Enter the code</string>
+    <string name="otp_retry">Send again</string>
+    <string name="otp_description">Confirm the phone number an SMS with a code has been sent to your number</string>
+    <string name="otp_action_timer">You can receive the code in</string>
+
+    <!--    User Profile -->
+    <string name="user_profile_on_time">Presence</string>
+    <string name="user_profile_absent">Absence</string>
+    <string name="user_profile_late">Lateness</string>
+
+    <!--    Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_empty_title">No notifications</string>
+    <string name="notifications_empty_description">Currently you don\'t have notifications</string>
+    <string name="notifications_do_action">Perform an action?</string>
+
+    <string name="notifications_time_now">Now</string>
+
+    <!--    Timesheet -->
+    <string name="timesheet_title">Table</string>
+    <string name="timesheet_description">Vacation days, attendance</string>
+    <string name="timesheet_on_time">During</string>
+    <string name="timesheet_errors">Errors</string>
+    <string name="timesheet_attendance">At work</string>
+    <string name="timesheet_lates">Late</string>
+    <string name="timesheet_late">Lateness</string>
+    <string name="timesheet_absent">Absence</string>
+    <string name="timesheet_day_off">Day off</string>
+    <string name="timesheet_beg_off">Beg off</string>
+    <string name="timesheet_time_off">Vacation</string>
+    <string name="timesheet_late_on">Late %s</string>
+
+    <!--    User Score Months -->
+    <string name="colleague_title">Employee</string>
+    <string name="colleague_score">PRO points</string>
+    <string name="colleague_timesheet">Report card</string>
+    <string name="colleague_statistic">Statistics</string>
+
+    <!--    User Score -->
+    <string name="score_title">Your PRO scores</string>
+    <string name="score_month_total">Total score for the month:</string>
+    <string name="score_lost_points">Lost Points:</string>
+
+    <!--    Settings -->
+    <string name="score_get_points">Points received:</string>
+    <string name="settings_change_language">Switch language</string>
+    <string name="settings_account">Profile</string>
+    <string name="settings_support">Support</string>
+    <string name="settings_about_app">About the application</string>
+    <string name="settings_change_password">Change Password</string>
+    <string name="settings_change_phone_number">Change phone number</string>
+    <string name="settings_payment_history">Payment history</string>
+
+    <!--    Plan Fact -->
+    <string name="plan_fact_title">Plan fact</string>
+    <string name="plan_fact_add">Add plan for today</string>
+    <string name="plan_fact_add_date">Add plan for %s</string>
+    <string name="plan_fact_given_plan">Preset plan</string>
+    <string name="plan_fact_my_plan">Your plan</string>
+    <string name="plan_fact_y_axis_title">Income</string>
+    <string name="plan_fact_add_name_hint">Name</string>
+    <string name="plan_fact_add_day_hint">Date</string>
+    <string name="plan_fact_add_plan_hint">Execution plan</string>
+    <string name="plan_fact_add_fact_hint">Actual execution</string>
+    <string name="plan_fact_add_fact_placeholder">number of completed tasks</string>
+    <string name="plan_fact_generate_report">Generate a report</string>
+
+    <!--    Time Track -->
+    <string name="time_track_tasks">Tasks for %s</string>
+    <string name="time_track_tasks_today">Tasks for today</string>
+    <string name="time_track_check_in">Be at work</string>
+    <string name="time_track_check_out">End the working day</string>
+    <string name="time_track_at_work">I\'m at work</string>
+    <string name="time_track_check_out_action">End</string>
+    <string name="time_track_time_off">Take time off</string>
+    <string name="time_track_time_off_done">Took time off</string>
+    <string name="time_track_time_off_description">Write the reason why you want to leave</string>
+    <string name="time_track_time_off_reject_title">The reason for the refusal</string>
+    <string name="time_track_time_off_reject_description">Write the reason why you want to refuse</string>
+    <string name="time_track_time_off_reject">Deny</string>
+
+    <!--    Check In / Out -->
+    <string name="check_in_loading_title">Checking your location</string>
+    <string name="check_in_loading_description">Please wait while checking your location…</string>
+    <string name="check_in_zone_title">Verification completed!</string>
+    <string name="check_in_in_zone_description">You are in the working radius! You can start working.</string>
+    <string name="check_not_in_zone_title">You are out of range!</string>
+    <string name="check_in_not_in_zone_description">You cannot get started. Arrive at your place of work.</string>
+    <string name="check_in_requirements_title">You cannot complete the working day</string>
+    <string name="check_in_requirements_done">Done</string>
+
+    <string name="check_out_in_zone_description">You are in the working radius! You can end the working day.</string>
+    <string name="check_out_not_in_zone_description">You cannot get started. Arrive at your place of work.</string>
+
+    <string name="check_without_zone_title">Verification completed!</string>
+    <string name="check_in_without_zone_description">You can start working.</string>
+    <string name="check_out_without_zone_description">You can end the working day.</string>
+
+    <string name="check_out_initial_date">Check-out for date: %s</string>
+
+    <string name="checklist">Checklist</string>
+    <string name="checklist_inspect">Inspect</string>
+    <string name="checklist_execute">Execute</string>
+    <string name="checklist_hide_attachments">Hide attachments</string>
+    <string name="checklist_show_attachments">Show attachments</string>
+    <string name="checklist_day_off_description">You have a day off today!\nHave a good rest, gain strength!</string>
+    <string name="checklist_on_vacation_description">Enjoy your vacation! \nVisit as many places as possible \nand get the most impressions!\nDate of going to work: %s</string>
+    <string name="checklist_placeholder_description">At the moment, you don\'t have any checklists yet</string>
+
+    <!--    Account Settings -->
+    <string name="account_settings_title">Edit Profile</string>
+    <string name="account_settings_full_name">Full name</string>
+    <string name="account_settings_first_name">First name</string>
+    <string name="account_settings_last_name">Last name</string>
+    <string name="account_settings_middle_name">Middle name</string>
+    <string name="account_settings_phone_number">Phone number</string>
+    <string name="account_settings_role">Post</string>
+    <string name="account_settings_input_old_password">Enter the old password</string>
+    <string name="account_settings_input_new_password">Enter a new password</string>
+    <string name="account_settings_input_new_password_repeat">Repeat the new password</string>
+    <string name="account_settings_save_password">Save Changes</string>
+    <string name="account_settings_delete_avatar_title">Delete a photo</string>
+    <string name="account_settings_delete_avatar_description">Do you really want to delete this photo?</string>
+    <string name="account_settings_change_avatar">Edit a photo</string>
+    <string name="account_settings_save">Save changes</string>
+    <string name="account_settings_save_done">The changes were saved successfully</string>
+    <string name="account_settings_company_code_title">INVITATION CODE FOR %s EMPLOYEES</string>
+    <string name="account_settings_delete_account">Delete a profile</string>
+    <string name="account_settings_delete_account_warning">Attention!</string>
+    <string name="account_settings_delete_account_title">Are you sure you want to delete your account?</string>
+    <string name="account_settings_delete_account_description_owner">The accounts of employees and founders of your organizations and the data contained in your account will also be deleted from your account. This action cannot be undone, so make sure that you make the decision consciously.</string>
+    <string name="account_settings_delete_account_description_employee">The data contained in your account will also be deleted from your account. Your data will be saved to %s, if desired, you can restore your account before this date</string>
+    <string name="account_settings_role_owner">Owner</string>
+    <string name="account_settings_role_co_owner">Co-owner</string>
+    <string name="account_settings_intent_chooser_title">Way</string>
+
+    <!--    Change Password Settings -->
+    <string name="change_password_succsess">The password has been successfully changed!</string>
+    <string name="change_password_incorrect_old_password">Invalid old password</string>
+
+    <!--    Change Phone Number Settings -->
+    <string name="settings_edit_phone_number_title">Edit Phone Number</string>
+    <string name="settings_edit_phone_number_description">Enter the phone number you want to change to, an SMS code will be sent to it to confirm the number</string>
+    <string name="settings_edit_phone_number_updated">The phone number has been successfully changed!</string>
+    <string name="settings_edit_phone_number_error">This number is already registered, please contact the administrator</string>
+
+    <!--    About app Settings -->
+    <string name="about_app_version">Version %s</string>
+    <string name="about_app_description">This application was developed by BePRO Holding company. For any inquiries, please contact us at bepro.company.kz@gmail.com.</string>
+
+    <!--    Employee List -->
+    <string name="employees_list_title">Employees</string>
+    <string name="employees_list_description">Monthly scoreboard</string>
+    <string name="employees_list_place">place</string>
+    <string name="employees_list_search_title">Employee search</string>
+    <string name="employees_list_search_history">You previously searched</string>
+    <string name="employees_list_search_history_clear">Clear</string>
+    <string name="employees_list_all">All</string>
+    <string name="employees_list_placeholder_title">List is empty</string>
+    <string name="employees_list_placeholder_description_owner">You don\'t have any employees in this section yet</string>
+    <string name="employees_list_placeholder_description_employee">There are no employees of your level in this section</string>
+
+    <!--    Tasks -->
+    <string name="tasks_title">PRO board</string>
+    <string name="tasks_title_2">Task %s</string>
+    <string name="tasks_description">Task list for employees</string>
+    <string name="tasks_week">Week</string>
+    <string name="tasks_today">Today</string>
+    <string name="tasks_backlog">Backlog</string>
+    <string name="tasks_done">Done</string>
+    <string name="tasks_my_tasks">My Tasks</string>
+    <string name="tasks_assigned_to_me">Assigned to me</string>
+    <string name="tasks_audio_tooltip_initial">Hold for audio recording. Click to switch to text</string>
+    <string name="tasks_audio_tooltip_playing_cancel">To cancel, go outside the field</string>
+    <string name="tasks_new_task">New task</string>
+    <string name="tasks_text">Text</string>
+    <string name="tasks_attach">Attach</string>
+    <string name="tasks_file_or_photo">File or Photo</string>
+    <string name="tasks_for_whom">For whom?</string>
+    <string name="tasks_inspector">Inspector</string>
+    <string name="tasks_where">Where</string>
+    <string name="tasks_priority">Difficulty</string>
+    <string name="tasks_select_inspector">Select an inspector</string>
+    <string name="tasks_select_executor">Select an executor</string>
+    <string name="tasks_select_where">Select the time of task</string>
+    <string name="tasks_select_date">Select a date</string>
+    <string name="tasks_select_priority">Select a priority</string>
+    <string name="tasks_placeholder_text">Enter the text</string>
+    <string name="tasks_when">When?</string>
+    <string name="tasks_choose_date">Select a date</string>
+    <string name="tasks_description_task">Task description</string>
+    <string name="tasks_status_low">Low</string>
+    <string name="tasks_status_medium">Medium</string>
+    <string name="tasks_status_high">High</string>
+    <string name="tasks_status_highest">Highest</string>
+    <string name="tasks_complete">Complete</string>
+    <string name="tasks_for_complete">Run to</string>
+    <string name="tasks_author">Author</string>
+    <string name="tasks_executor">Executor</string>
+    <string name="tasks_author_executor">Author / Executor</string>
+    <string name="tasks_author_inspector">Author / Inspector</string>
+    <string name="tasks_inspector_executor">Inspector / Executor</string>
+    <string name="tasks_author_inspector_executor">Author / Executor / Inspector</string>
+    <string name="tasks_approve">Approve</string>
+    <string name="tasks_reject">Reject</string>
+    <string name="tasks_move_request_action_title">%1$s requested to move the task deadline from %2$s to %3$s</string>
+    <string name="tasks_open_camera">Take a photo</string>
+    <string name="tasks_choose_photo">Choose from gallery</string>
+    <string name="tasks_take_video">Make a video</string>
+    <string name="tasks_choose_file">Files</string>
+    <string name="tasks_error_file_loading">Files are loading…</string>
+    <string name="tasks_error_drag">First open the task</string>
+    <string name="tasks_photo_name">Photo</string>
+    <string name="tasks_video_name">Video</string>
+    <string name="tasks_file_name">File</string>
+    <string name="tasks_remind">Remind</string>
+    <string name="tasks_edit_task">Editing a task</string>
+    <string name="tasks_edit_task_complete">The task has been successfully changed</string>
+    <string name="tasks_remind_success">The reminder was sent successfully</string>
+
+    <!--    Tariff  -->
+    <string name="tariff_title">Tariff</string>
+    <string name="tariff_tariff">Tariff</string>
+    <string name="tariff_description">Subscription and benefits</string>
+    <string name="tariff_accepted">Connected</string>
+    <string name="tariff_connect">Connect</string>
+    <string name="tariff_tariffs">Tariffs</string>
+    <string name="tariff_subscription_end">Monthly subscription, expires %s</string>
+    <string name="tariff_price">Price: %s KZT</string>
+    <string name="tariff_only_price">%s ₸</string>
+    <string name="tariff_benefits">Subscription Benefits</string>
+    <string name="tariff_other_tariffs">See other rates</string>
+    <string name="tariff_individual_pro">Be PRO %s individual subscription</string>
+    <string name="tariff_days_left_alert">There are %s days left until the end of the subscription</string>
+    <string name="tariff_expires">Subscription to %s, expiration date %s</string>
+
+    <string name="tariff_tariff_name">%s Tariff</string>
+    <string name="tariff_name_tariff">Tariff %s</string>
+    <string name="tariff_employee_count">up to %s of employees</string>
+    <string name="tariff_price_per_month">The price is for 1 month</string>
+    <string name="tariff_prolong">To extend</string>
+    <string name="tariff_prolong_title">Select a subscription period</string>
+    <string name="tariff_prolong_next">Extend the tariff after the end of the current one</string>
+    <string name="tariff_prolong_cost_tariff">Cost %s:</string>
+    <string name="tariff_prolong_deduction">Deduction of the balance:</string>
+    <string name="tariff_prolong_credited">They are credited to the balance:</string>
+    <string name="tariff_prolong_total">Total:</string>
+    <string name="tariff_reconnect">Reconnect</string>
+    <string name="tariff_send_request">Send a request</string>
+    <string name="tariff_send_request_done">The application has been successfully submitted</string>
+    <string name="tariff_send_request_done_description">Expect the manager to contact you about the payment and account registration</string>
+    <string name="tariff_period">Validity period: %s months</string>
+    <string name="tariff_start_date">Start date: %sat</string>
+    <string name="tariff_end_date">End date: %s</string>
+    <string name="tariff_status_new">Expected</string>
+    <string name="tariff_status_accepted">Active</string>
+    <string name="tariff_status_expired">Completed</string>
+    <string name="tariff_status_declined">Rejected</string>
+    <string name="tariff_status_prepaid">Prepaid</string>
+    <string name="tariff_status_canceled">Changed the tariff</string>
+
+    <!--    Score And Plan  -->
+    <string name="score_plan_title">Scores and statistics</string>
+
+    <!--    Employee Feed  -->
+    <string name="employee_feed_title">Employee Feed</string>
+    <string name="employee_feed_work_date">Works with %s</string>
+    <string name="employee_feed_analysis">Make an analysis</string>
+    <string name="employee_feed_placeholder_title">No changes</string>
+    <string name="employee_feed_placeholder_description">Currently, everything is stable in your company.</string>
+
+    <plurals name="seconds_ago">
+        <item quantity="one">%d second ago</item>
+        <item quantity="other">%d seconds ago</item>
+    </plurals>
+
+    <plurals name="minutes_ago">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+
+    <plurals name="hours_ago">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+
+    <plurals name="days_ago">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+
+    <plurals name="weeks_ago">
+        <item quantity="one">%d week ago</item>
+        <item quantity="other">%d weeks ago</item>
+    </plurals>
+
+    <plurals name="months_ago">
+        <item quantity="one">%d month ago</item>
+        <item quantity="other">%d months ago</item>
+    </plurals>
+
+    <plurals name="years_ago">
+        <item quantity="one">%d year ago</item>
+        <item quantity="other">%d years ago</item>
+    </plurals>
+    <!--     Businessman Home -->
+    <string name="businessman_home_projects">%s projects</string>
+    <string name="businessman_chart_month">Month</string>
+    <string name="businessman_chart_period">Period</string>
+    <string name="businessman_chart_info_attendance_text">Number of employees present at work during a given period</string>
+    <string name="businessman_chart_info_errors_text">Number of errors at work for a given period</string>
+    <string name="businessman_chart_info_lates_text">Amount of time late for work during a given period</string>
+
+    <string name="businessman_chart_errors_count">%s employees</string>
+    <string name="businessman_chart_attendance_count">%s employees</string>
+    <string name="businessman_chart_lates_count">%s employees</string>
+    <string name="businessman_chart_title">The average score of employees</string>
+
+    <!--     Form Send Test  -->
+    <string name="form_send_test_title">Submit a test</string>
+    <string name="form_send_test_full_name">Employee\'s full name</string>
+    <string name="form_send_test_full_name_placeholder">Enter your full name</string>
+    <string name="form_send_test_type_test">Type of test</string>
+    <string name="form_send_test_type_test_placeholder">Select the type of test</string>
+    <string name="form_send_test_birth_date">Employee\'s date of birth</string>
+    <string name="form_send_test_birth_date_placeholder">Select the date of birth</string>
+    <string name="form_send_test_email">Электронная почта</string>
+    <string name="form_send_test_email_placeholder">Enter email</string>
+    <string name="form_send_test_phone_number">Employee\'s phone number</string>
+    <string name="form_send_test_send">Send</string>
+    <string name="form_send_test_heart">Heart Test</string>
+    <string name="form_send_test_brain">Brain Test</string>
+    <string name="form_send_test_heart_pro">Heart Test PRO</string>
+    <string name="form_send_test_brain_pro">Brain Test PRO</string>
+    <string name="form_send_test_version">Test version</string>
+    <string name="form_send_test_version_placeholder">Select an option</string>
+    <string name="form_send_test_already_exists_title">Are you sure you want to reschedule the test?</string>
+
+
+    <!--    Link Test  -->
+    <string name="link_test_title">The link to the test has been successfully generated</string>
+    <string name="link_test_description">To share the link click on the button below</string>
+    <string name="link_test_send_link">Send a link</string>
+    <string name="link_test_copy_sucsses">Link copied successfully</string>
+
+    <!--    Analysis   -->
+    <string name="analysis_title">Analysis</string>
+    <string name="analysis_description">Your employee may be infected with viruses. You need to cure him in advance so that he does not infect others.</string>
+    <string name="analysis_diseases_sip_a">SIP-A disease: Due to delays</string>
+    <string name="analysis_diseases_sip_b">SIP-B Disease: Failure to complete a task</string>
+    <string name="analysis_diseases_sip_c">SIP-C disease: Absence</string>
+
+    <!--    Bonus Program -->
+    <string name="bonus_title">My bonuses</string>
+    <string name="bonus_placeholder_title">You don\'t have any bonuses yet</string>
+    <string name="bonus_placeholder_description">At the moment you don\'t have \n invited users.</string>
+    <string name="bonus_invite_businessman">Invite a businessman</string>
+    <string name="bonus_information">How does it work?</string>
+    <string name="bonus_information_description">Invite a businessman friend to BePro Gumby and get a 5% discount on the purchase of a friend.\n\n To do this, just share your personal code with them.</string>
+    <string name="bonus_information_title">Share your code with others and get bonuses</string>
+    <string name="bonus_information_first_title">Businessman A invites Businessman B</string>
+    <string name="bonus_information_first_description">If Businessman B pays for the subscription, Businessman A receives 5% of the amount.</string>
+    <string name="bonus_received_title">List of companies in my referral system</string>
+    <string name="bonus_received_company">%s companies</string>
+    <string name="bonus_received_total_discount">Total discount amount: %s ₸</string>
+    <string name="bonus_received_total_bonus">Total amount of bonuses:</string>
+    <string name="bonus_received_total_bonus_amount">%s ₸</string>
+    <string name="bonus_invite_title">Invite your friends and get bonuses!</string>
+
+    <!--    Documents -->
+    <string name="documents_title">Document flow</string>
+    <string name="documents_filter_type">Document type</string>
+    <string name="documents_filter_status">Status</string>
+    <string name="documents_account_title">Documents</string>
+    <string name="documents_empty_title">The list is empty</string>
+    <string name="documents_empty_description">At the moment you do not have documents yet</string>
+    <string name="documents_empty_action">Create document</string>
+    <string name="documents_see_file_action">Preview document</string>
+    <string name="documents_type_item">Type: %s</string>
+    <string name="documents_status_done">Done</string>
+    <string name="documents_status_waiting">Waiting</string>
+    <string name="documents_status_to_sign">Sign</string>
+    <string name="documents_status_draft">Draft</string>
+    <string name="documents_sucess_sign">%s was successfully signed</string>
+    <string name="documents_sucess_send_title">The contract was successfully sent to the employee</string>
+    <string name="documents_sucess_send_description">Please wait for the employee\'s signature</string>
+    <string name="documents_templates_select_title">Select document type</string>
+    <string name="documents_status_select_title">Select status</string>
+    <string name="documents_template_fill_title">Fill out the fields of the form</string>
+    <string name="documents_template_create_send_to_employee">Send to employee</string>
+    <string name="documents_template_create_sign">Sign</string>
+    <string name="documents_info_title">What do document statuses mean?</string>
+
+    <string name="documents_info_status_to_sign">Status “sign”</string>
+    <string name="documents_info_status_to_sign_description">This status means that you need to read the document and sign it</string>
+
+    <string name="documents_info_status_waiting">Status “pending”</string>
+    <string name="documents_info_status_waiting_description">This status means that you need to read the document and sign it</string>
+
+    <string name="documents_info_status_done">Status “done“</string>
+    <string name="documents_info_status_done_description">This status means that you need to read the document and sign it</string>
+
+    <string name="documents_info_status_draft">Status “draft“</string>
+    <string name="documents_info_status_draft_description">This status means that the form is not completely filled out and can be edited</string>
+
+    <string name="documents_template_fill_title_action">Fill out the form</string>
+    <string name="documents_template_property_no">Property #%d</string>
+    <string name="documents_template_property_delete_alert">Are you sure you want to delete this property?</string>
+    <string name="documents_template_add_property">Add property</string>
+    <string name="documents_template_property_name">Name</string>
+    <string name="documents_template_property_name_hint">Enter name</string>
+    <string name="documents_template_property_date">Transfer date</string>
+    <string name="documents_template_property_date_hint">Transfer date</string>
+    <string name="documents_template_property_notes">Note</string>
+    <string name="documents_template_property_notes_hint">Enter a note</string>
+
+    <string name="documents_exit_alert_title">Save data?</string>
+    <string name="documents_exit_alert_description">Want to save your completed fields for next time? The document will be saved as a “draft”</string>
+
+    <string name="documents_delete_alert_title">Are you want to delete the document?</string>
+    <string name="documents_resend_action">Отправить на перезаполнение</string>
+
+    <!--   Gamby Card  -->
+    <string name="gamby_card_familiarized">Familiarized</string>
+    <string name="gamby_card_task_number">Task №%s</string>
+    <string name="gamby_card_change_company">Choose another organization</string>
+    <string name="gamby_card_test_results">Test results</string>
+    <string name="gamby_card_expired_tariff_1">Your tariff is %s</string>
+    <string name="gamby_card_expired_tariff_2">expired %s</string>
+    <string name="gamby_card_expired_tariff_3">, in order to unlock the app\'s features, extend the tariff.</string>
+</resources>

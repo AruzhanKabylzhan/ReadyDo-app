@@ -1,0 +1,20 @@
+apply from: "$rootDir/common-default-config.gradle"
+
+android {
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            debuggable false
+            consumerProguardFiles 'consumer-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+    implementation timber
+    testImplementation junit
+}

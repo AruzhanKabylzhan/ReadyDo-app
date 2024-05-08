@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">BePro Core</string>
+    <!--    Common-->
+    <string name="error_app_for_intent_not_found">На устройстве не найдено приложения для выполнения действия</string>
+
+    <string name="common_settings">Настройки</string>
+    <string name="common_permission_permit">Разрешить</string>
+    <string name="common_permission_later">Позже</string>
+    <string name="common_permission_gelocation_title">Доступ к гео-данным</string>
+    <string name="common_permission_gelocation_description">Для отметки нужен доступ к гео-данным</string>
+
+    <string name="common_permission_audio_title">Нужен доступ к микрофону</string>
+    <string name="common_permission_audio_description">Для записи аудио нужен доступ к микрофону.\nЗайдите в настройки приложения и включите доступ</string>
+
+    <string name="common_permission_location_title">Геолокация отключена.</string>
+    <string name="common_permission_location_description">Пожалуйста, включите определение местоположения для корректной работы приложения.</string>
+
+    <string name="common_checklist_check_out_title">Вы не можете ставить галочку</string>
+    <string name="common_checklist_check_out_description">Вы уже пропустили этот день</string>
+
+    <string name="common_checklist_check_in_title">Вы не можете ставить галочку</string>
+    <string name="common_checklist_check_in_description">Вы еще не начали день</string>
+
+    <string name="common_take_off_title">Вы не можете отпроситься</string>
+    <string name="common_take_off_description">Вы уже пропустили этот день</string>
+
+    <string name="common_logout_title">Вы уверены что хотите выйти?</string>
+    <string name="common_logout_description">Вы уверены что хотите выйти?</string>
+    <string name="common_delete_description">Вы уверены что хотите удалить?</string>
+
+    <string name="documents_saved">Файл сохранен в папку “/Documents“!</string>
+    <string name="common_done">Готово</string>
+
+    <string name="common_all">Все</string>
+    <string name="common_delete">Удалить</string>
+    <string name="common_yes">Да</string>
+    <string name="common_no">Нет</string>
+    <string name="common_ok" translatable="false">Ок</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_cancel_action">Отменить</string>
+    <string name="common_password">Пароль</string>
+    <string name="common_password_hint">Введите пароль</string>
+    <string name="common_registration">Регистрация</string>
+    <string name="common_sec">%d сек</string>
+    <string name="common_continue">Продолжить</string>
+    <string name="common_apply">Применить</string>
+    <string name="common_hour">%.1f ч</string>
+    <string name="common_hour_clearly">%s ч</string>
+    <string name="common_hour_and_min">%d ч\n%d мин</string>
+    <string name="common_hour_and_min_check_in">%d ч %d мин</string>
+    <string name="common_min">%d мин</string>
+    <string name="common_logout">Выйти</string>
+    <string name="common_year">Год</string>
+    <string name="common_month">Месяц</string>
+    <string name="common_today">Сегодня</string>
+    <string name="common_add">Добавить</string>
+    <string name="common_start">Начать</string>
+    <string name="common_end">Завершить</string>
+    <string name="common_detailed">Подробнее</string>
+    <string name="common_other">Другое</string>
+    <string name="common_back">Назад</string>
+    <string name="common_crop">Обрезать</string>
+    <string name="common_view">Посмотреть</string>
+    <string name="common_attention">Внимание!</string>
+
+    <string name="common_no_data">Нет данных</string>
+    <string name="common_no_search_data">Ничего не найдено</string>
+    <string name="common_no_search_data_description">По вашему запросу нет соответствующих данных</string>
+    <string name="common_share">Поделиться</string>
+
+    <!--    Common Success-->
+    <string name="common_success_request">Запрос успешно отправлен!</string>
+
+    <!--    Common Error-->
+    <string name="common_error_connection">Ошибка с подключением интернета</string>
+    <string name="common_error_unknown">Что-то пошло не так, попробуйте еще раз</string>
+    <string name="common_error_required_field">Обязательное поле</string>
+
+    <!--    Country names -->
+    <string name="country_kz">Казахстан</string>
+    <string name="country_ru">Россия</string>
+    <string name="country_us">США</string>
+    <string name="country_ae">ОАЭ</string>
+    <string name="country_af">Афганистан</string>
+    <string name="country_al">Албания</string>
+    <string name="country_dz">Алжир</string>
+    <string name="country_as">Американское Самоа</string>
+    <string name="country_ad">Андорра</string>
+    <string name="country_ao">Ангола</string>
+    <string name="country_ai">Ангилья</string>
+    <string name="country_aq">Антарктида</string>
+    <string name="country_ag">Антигуа и Барбуда</string>
+    <string name="country_ar">Аргентина</string>
+    <string name="country_am">Армения</string>
+    <string name="country_aw">Аруба</string>
+    <string name="country_au">Австралия</string>
+    <string name="country_at">Австрия</string>
+    <string name="country_az">Азербайджан</string>
+    <string name="country_bs">Багамские Острова</string>
+    <string name="country_bh">Бахрейн</string>
+    <string name="country_bd">Бангладеш</string>
+    <string name="country_bb">Барбадос</string>
+    <string name="country_by">Беларусь</string>
+    <string name="country_be">Бельгия</string>
+    <string name="country_bz">Белиз</string>
+    <string name="country_bj">Бенин</string>
+    <string name="country_bm">Бермуды</string>
+    <string name="country_bt">Бутан</string>
+    <string name="country_bo">Боливия</string>
+    <string name="country_ba">Босния и Герцеговина</string>
+    <string name="country_bw">Ботсвана</string>
+    <string name="country_br">Бразилия</string>
+    <string name="country_bn">Бруней</string>
+    <string name="country_bg">Болгария</string>
+    <string name="country_bf">Буркина-Фасо</string>
+    <string name="country_bi">Бурунди</string>
+    <string name="country_kh">Камбоджа</string>
+    <string name="country_cm">Камерун</string>
+    <string name="country_ca">Канада</string>
+    <string name="country_cv">Кабо-Верде</string>
+    <string name="country_ky">Каймановы острова</string>
+    <string name="country_cf">Центрально-Африканская Республика</string>
+    <string name="country_td">Чад</string>
+    <string name="country_cl">Чили</string>
+    <string name="country_cn">Китай</string>
+    <string name="country_cx">Остров Рождества</string>
+    <string name="country_cc">Кокосовые острова</string>
+    <string name="country_co">Колумбия</string>
+    <string name="country_km">Коморы</string>
+    <string name="country_cd">Конго (бывший Заир)</string>
+    <string name="country_cg">Конго</string>
+    <string name="country_ck">Острова Кука</string>
+    <string name="country_cr">Коста-Рика</string>
+    <string name="country_ci">Кот дИвуар</string>
+    <string name="country_hr">Хорватия</string>
+    <string name="country_cu">Куба</string>
+    <string name="country_cy">Кипр</string>
+    <string name="country_cz">Чехия</string>
+    <string name="country_dk">Дания</string>
+    <string name="country_dj">Джибути</string>
+    <string name="country_dm">Доминика</string>
+    <string name="country_do">Доминиканская Республика</string>
+    <string name="country_tl">Восточный Тимор</string>
+    <string name="country_ec">Эквадор</string>
+    <string name="country_eg">Египет</string>
+    <string name="country_sv">Сальвадор</string>
+    <string name="country_gq">Экваториальная Гвинея</string>
+    <string name="country_er">Эритрея</string>
+    <string name="country_ee">Эстония</string>
+    <string name="country_et">Эфиопия</string>
+    <string name="country_fk">Фолклендские острова</string>
+    <string name="country_fo">Фарерские острова</string>
+    <string name="country_fj">Фиджи</string>
+    <string name="country_fi">Финляндия</string>
+    <string name="country_fr">Франция</string>
+    <string name="country_gf">Французская Гвиана или Гайана</string>
+    <string name="country_pf">Французская Полинезия</string>
+    <string name="country_ga">Габон (Габонская Республика)</string>
+    <string name="country_gm">Гамбия</string>
+    <string name="country_ge">Грузия</string>
+    <string name="country_de">Германия</string>
+    <string name="country_gh">Гана</string>
+    <string name="country_gi">Гибралтар</string>
+    <string name="country_gr">Греция</string>
+    <string name="country_gl">Гренландия</string>
+    <string name="country_gd">Гренада</string>
+    <string name="country_gp">Гваделупа</string>
+    <string name="country_gu">Гуам</string>
+    <string name="country_gt">Гватемала</string>
+    <string name="country_gn">Гвинея (бывшая Французская Гвинея)</string>
+    <string name="country_gw">Гвинея-Бисау</string>
+    <string name="country_gy">Гайана</string>
+    <string name="country_ht">Гаити</string>
+    <string name="country_hn">Гондурас</string>
+    <string name="country_hk">Гонконг</string>
+    <string name="country_hu">Венгрия</string>
+    <string name="country_is">Исландия</string>
+    <string name="country_in">Индия</string>
+    <string name="country_id">Индонезия</string>
+    <string name="country_ir">Иран, Исламская Республика</string>
+    <string name="country_iq">Ирак</string>
+    <string name="country_ie">Ирландия</string>
+    <string name="country_il">Израиль</string>
+    <string name="country_it">Италия</string>
+    <string name="country_jm">Ямайка</string>
+    <string name="country_jp">Япония</string>
+    <string name="country_jo">Иордания (бывший Трансйордания)</string>
+    <string name="country_ke">Кения</string>
+    <string name="country_ki">Кирибати</string>
+    <string name="country_kp">Корея (КНДР)</string>
+    <string name="country_kr">Корея (Южная Корея)</string>
+    <string name="country_kw">Кувейт</string>
+    <string name="country_kg">Киргизия</string>
+    <string name="country_la">Лаос</string>
+    <string name="country_lv">Латвия</string>
+    <string name="country_lb">Ливан</string>
+    <string name="country_ls">Лесото</string>
+    <string name="country_lr">Либерия</string>
+    <string name="country_ly">Ливийская Арабская Джамахирия</string>
+    <string name="country_li">Лихтенштейн</string>
+    <string name="country_lt">Литва</string>
+    <string name="country_lu">Люксембург</string>
+    <string name="country_mo">Макао</string>
+    <string name="country_mk">Македония</string>
+    <string name="country_mg">Мадагаскар</string>
+    <string name="country_mw">Малави</string>
+    <string name="country_my">Малайзия</string>
+    <string name="country_mv">Мальдивы</string>
+    <string name="country_ml">Мали</string>
+    <string name="country_mt">Мальта</string>
+    <string name="country_mh">Маршалловы острова</string>
+    <string name="country_mq">Мартиника (французская)</string>
+    <string name="country_mr">Мавритания</string>
+    <string name="country_mu">Маврикий</string>
+    <string name="country_yt">Майотта</string>
+    <string name="country_mx">Мексика</string>
+    <string name="country_fm">Микронезия</string>
+    <string name="country_md">Молдавия</string>
+    <string name="country_mc">Монако</string>
+    <string name="country_mn">Монголия</string>
+    <string name="country_ms">Монтсеррат</string>
+    <string name="country_ma">Марокко</string>
+    <string name="country_mz">Мозамбик</string>
+    <string name="country_mm">Мьянма</string>
+    <string name="country_na">Намибия</string>
+    <string name="country_nr">Науру</string>
+    <string name="country_np">Непал</string>
+    <string name="country_nl">Нидерланды</string>
+    <string name="country_an">Нидерландские Антильские острова</string>
+    <string name="country_nc">Новая Каледония</string>
+    <string name="country_nz">Новая Зеландия</string>
+    <string name="country_ni">Никарагуа</string>
+    <string name="country_ne">Нигер</string>
+    <string name="country_ng">Нигерия</string>
+    <string name="country_nu">Ниуэ</string>
+    <string name="country_nf">Остров Норфолк</string>
+    <string name="country_mp">Северные Марианские острова</string>
+    <string name="country_no">Норвегия</string>
+    <string name="country_om">Оман</string>
+    <string name="country_pk">Пакистан</string>
+    <string name="country_pw">Палау</string>
+    <string name="country_ps">Государство Палестина</string>
+    <string name="country_pa">Панама</string>
+    <string name="country_pg">Папуа - Новая Гвинея</string>
+    <string name="country_py">Парагвай</string>
+    <string name="country_pe">Перу</string>
+    <string name="country_ph">Филиппины</string>
+    <string name="country_pn">Питкэрн</string>
+    <string name="country_pl">Польша</string>
+    <string name="country_pt">Португалия</string>
+    <string name="country_pr">Пуэрто-Рико</string>
+    <string name="country_qa">Катар</string>
+    <string name="country_re">Реюньон (французская)</string>
+    <string name="country_ro">Румыния</string>
+    <string name="country_rw">Руанда</string>
+    <string name="country_sh">Святая Елена</string>
+    <string name="country_kn">Сент-Китс и Невис</string>
+    <string name="country_lc">Сент-Люсия</string>
+    <string name="country_pm">Сен-Пьер и Микелон</string>
+    <string name="country_vc">Сент-Винсент и Гренадины</string>
+    <string name="country_ws">Самоа</string>
+    <string name="country_sm">Сан-Марино</string>
+    <string name="country_st">Сан-Томе и Принсипи</string>
+    <string name="country_sa">Саудовская Аравия</string>
+    <string name="country_rs">Сербия</string>
+    <string name="country_sn">Сенегал</string>
+    <string name="country_sc">Сейшельские острова</string>
+    <string name="country_sl">Сьерра-Леоне</string>
+    <string name="country_sg">Сингапур</string>
+    <string name="country_sk">Словакия</string>
+    <string name="country_si">Словения</string>
+    <string name="country_sb">Соломоновы острова</string>
+    <string name="country_so">Сомали</string>
+    <string name="country_za">Южно-Африканская Республика</string>
+    <string name="country_es">Испания</string>
+    <string name="country_lk">Шри-Ланка</string>
+    <string name="country_sd">Судан</string>
+    <string name="country_sr">Суринам</string>
+    <string name="country_sz">Свазиленд</string>
+    <string name="country_se">Швеция</string>
+    <string name="country_ch">Швейцария</string>
+    <string name="country_sy">Сирийская Арабская Республика</string>
+    <string name="country_tw">Тайвань (бывший Формоза)</string>
+    <string name="country_tj">Таджикистан</string>
+    <string name="country_tz">Танзания</string>
+    <string name="country_th">Таиланд (бывший Сиам)</string>
+    <string name="country_tg">Того (бывшая Французская Того)</string>
+    <string name="country_tk">Токелау</string>
+    <string name="country_to">Тонга</string>
+    <string name="country_tt">Тринидад и Тобаго</string>
+    <string name="country_tr">Туркия</string>
+    <string name="country_tm">Туркмения</string>
+    <string name="country_tn">Тунис</string>
+    <string name="country_tc">Острова Теркс и Кайкос</string>
+    <string name="country_tv">Тувалу (бывшие Элиссовы острова)</string>
+    <string name="country_ug">Уганда</string>
+    <string name="country_ua">Украина</string>
+    <string name="country_gb">Великобритания</string>
+    <string name="country_uy">Уругвай</string>
+    <string name="country_uz">Узбекистан</string>
+    <string name="country_vu">Вануату</string>
+    <string name="country_va">Ватикан (Святой Престол)</string>
+    <string name="country_ve">Венесуэла</string>
+    <string name="country_vn">Вьетнам</string>
+    <string name="country_vg">Британские Виргинские острова</string>
+    <string name="country_vi">Виргинские острова, США</string>
+    <string name="country_wf">Уоллис и Футуна</string>
+    <string name="country_ye">Йемен</string>
+    <string name="country_yu">Югославия</string>
+    <string name="country_zr">Заир</string>
+    <string name="country_zm">Замбия</string>
+    <string name="country_zw">Зимбабве</string>
+
+    <string name="audio_slide_to_cancel">Влево - отмена</string>
+    <string name="loading_indicator_please_wait">Пожалуйста подождите</string>
+
+    <!--    Language -->
+    <string name="language_ru" translatable="false">Русский</string>
+    <string name="languages">Языки</string>
+    <string name="language_rus">Рус</string>
+    <string name="language_eng">Eng</string>
+    <string name="language_kaz">Қаз</string>
+
+    <!--    Login -->
+    <string name="login_title">Войти</string>
+    <string name="login_forgot_password">Забыли пароль?</string>
+    <string name="login_no_account">Нет аккаунта?</string>
+    <string name="login_restore_account_description">Аккаунт удален, хотите ли вы восстановить аккаунт?</string>
+    <string name="login_account_activated">Ваш аккаунт успешно восстановлен</string>
+
+
+    <!--    Registration  -->
+    <string name="registration_title">Укажите телефон</string>
+    <string name="registration_next">Продолжить</string>
+    <string name="registration_accept">Я согласен с политикой</string>
+    <string name="registration_privacy_police">конфедициальности</string>
+
+    <string name="registration_set_password_title">Придумайте пароль</string>
+    <string name="registration_password">Пароль</string>
+    <string name="registration_password_hint">Введите пароль</string>
+    <string name="registration_repeat_password">Повторите пароль</string>
+    <string name="registration_save">Сохранить</string>
+
+    <string name="registration_minimum_characters">Минимум 8 символов</string>
+    <string name="registration_minimum_numbers">Минимум 1 число</string>
+    <string name="registration_minimum_symbol">Минимум 1 символ</string>
+    <string name="registration_minimum_capital_letter">Минимум 1 заглавная буква</string>
+
+    <string name="registration_password_match_accept">Пароли совпадают</string>
+    <string name="registration_have_account">Используйте пароль для входа</string>
+
+    <!--    Registration Type Choose  -->
+    <string name="registration_type_choose_title">Регистрация</string>
+    <string name="registration_type_choose_select_type">Выберите категорию</string>
+    <string name="registration_type_choose_type_company">Компания</string>
+    <string name="registration_type_choose_type_employee">Сотрудник</string>
+    <string name="registration_type_choose_already_has_account">Уже есть аккаунта?</string>
+
+    <!--    Registration Type Company -->
+    <string name="registration_company_title">Форма регистрации компании</string>
+    <string name="registration_company_phone_title">Телефон</string>
+    <string name="registration_company_name_title">ФИО</string>
+    <string name="registration_company_name_hint">Введите ФИО</string>
+    <string name="registration_company_department_title">Отдел</string>
+    <string name="registration_company_department_hint">Выберите отдел</string>
+    <string name="registration_company_company_name_title">Компания</string>
+    <string name="registration_company_company_name_hint">Введите название</string>
+    <string name="registration_company_business_name_title">Название компании Юр. Лица</string>
+    <string name="registration_company_business_name_hint">Введите название юр лица</string>
+    <string name="registration_company_industry_age_title">Сколько лет на рынке?</string>
+    <string name="registration_company_industry_age_hint">Введите кол-во лет</string>
+    <string name="registration_company_amount_of_employees_title">Сколько сотрудников?</string>
+    <string name="registration_company_amount_of_employees_hint">Введите кол-во сотрудников</string>
+    <string name="registration_company_email_title">Email</string>
+    <string name="registration_company_email_hint">Введите email</string>
+    <string name="registration_company_privacy_policy_1">Я ознакомлен(а) с</string>
+    <string name="registration_company_privacy_policy_2">Политикой конфиденциальности и безопасности</string>
+    <string name="registration_company_privacy_policy_3">персональных данных и согласен(на) на обработку моих персональных данных в соответствии с</string>
+    <string name="registration_company_privacy_policy_4">Пользовательским соглашением</string>
+    <string name="registration_company_privacy_policy_5">.</string>
+
+    <!--    Registration Invite Code -->
+    <string name="registration_invite_code_title">Укажите пригласительный код компании</string>
+    <string name="registration_invite_code_hint">Введите код компании</string>
+
+    <!--    Registration Employee Form -->
+    <string name="registration_employee_form_title">Форма регистрации сотрудника</string>
+    <string name="registration_employee_first_name_title">Имя</string>
+    <string name="registration_employee_last_name_title">Фамилия</string>
+    <string name="registration_employee_middle_name_title">Отчество</string>
+    <string name="registration_employee_first_name_hint">Введите имя</string>
+    <string name="registration_employee_last_name_hint">Введите фамилию</string>
+    <string name="registration_employee_middle_name_hint">Введите отчество</string>
+
+    <!--    OTP -->
+    <string name="otp_title">Введите код</string>
+    <string name="otp_retry">Отправить снова</string>
+    <string name="otp_description">Подтвердите номер телефона на ваш номер был отправлен смс с кодом</string>
+    <string name="otp_action_timer">Вы можете получить код через</string>
+
+    <!--    User Profile -->
+    <string name="user_profile_on_time">Присутствие</string>
+    <string name="user_profile_absent">Отсутствие</string>
+    <string name="user_profile_late">Опоздание</string>
+
+    <!--    Notifications -->
+    <string name="notifications_title">Уведомления</string>
+    <string name="notifications_empty_title">Уведомлений нет</string>
+    <string name="notifications_empty_description">На данный момент у вас нет уведомлений.</string>
+    <string name="notifications_do_action">Выполнить действие?</string>
+
+    <string name="notifications_time_now">Сейчас</string>
+
+    <!--    Timesheet -->
+    <string name="timesheet_title">Табель</string>
+    <string name="timesheet_description">Дни отпуска, посещаемость</string>
+    <string name="timesheet_errors">Ошибки</string>
+    <string name="timesheet_attendance">Работают</string>
+    <string name="timesheet_lates">Опоздали</string>
+    <string name="timesheet_on_time">Вовремя</string>
+    <string name="timesheet_late">Опоздание</string>
+    <string name="timesheet_absent">Отсутствие</string>
+    <string name="timesheet_day_off">Выходной</string>
+    <string name="timesheet_time_off">Отпуск</string>
+    <string name="timesheet_beg_off">Отпросился</string>
+    <string name="timesheet_late_on">Опоздал %s</string>
+
+
+    <!--    User Score -->
+    <string name="score_title">Ваши баллы PRO</string>
+    <string name="score_month_total">Общий балл за месяц:</string>
+    <string name="score_lost_points">Потерянные баллы:</string>
+    <string name="score_get_points">Полученные баллы:</string>
+
+    <!--    Settings -->
+    <string name="settings_change_language">Смена языка</string>
+    <string name="settings_account">Профиль</string>
+    <string name="settings_support">Поддержка</string>
+    <string name="settings_about_app">О приложении</string>
+    <string name="settings_change_password">Смена пароль</string>
+    <string name="settings_change_phone_number">Смена номера телефона</string>
+    <string name="settings_payment_history">История платежей</string>
+
+    <!--    Plan Fact -->
+    <string name="plan_fact_title">План факт</string>
+    <string name="plan_fact_add">Добавить план на сегодня</string>
+    <string name="plan_fact_add_date">Добавить план на %s</string>
+    <string name="plan_fact_given_plan">Заданный план</string>
+    <string name="plan_fact_my_plan">Ваш план</string>
+    <string name="plan_fact_y_axis_title">Доход</string>
+    <string name="plan_fact_add_name_hint">Название</string>
+    <string name="plan_fact_add_day_hint">Дата</string>
+    <string name="plan_fact_add_plan_hint">План выполнения</string>
+    <string name="plan_fact_add_fact_hint">Фактическое выполнение</string>
+    <string name="plan_fact_add_fact_placeholder">кол-во выполненных заданий</string>
+    <string name="plan_fact_generate_report">Сформировать отчет</string>
+
+    <!--    Time Tracking -->
+    <string name="time_track_tasks">Задачи на %s</string>
+    <string name="time_track_tasks_today">Задачи на сегодня</string>
+    <string name="time_track_check_in">Быть на работe</string>
+    <string name="time_track_check_out">Завершить рабочий день</string>
+    <string name="time_track_at_work">Я на работе</string>
+    <string name="time_track_check_out_action">Завершить</string>
+    <string name="time_track_time_off">Отпроситься</string>
+    <string name="time_track_time_off_done">Отпросился</string>
+    <string name="time_track_time_off_description">Напишите причину по которой хотите отпроситься</string>
+    <string name="time_track_time_off_reject_title">Причина отказа</string>
+    <string name="time_track_time_off_reject_description">Напишите причину по которой хотите отказать</string>
+    <string name="time_track_time_off_reject">Отказать</string>
+
+    <!--    Check In / Out -->
+    <string name="check_in_loading_title">Проверяем ваше местоположение</string>
+    <string name="check_in_loading_description">Подождите, проверяем ваше местоположение…</string>
+    <string name="check_in_zone_title">Проверка завершена!</string>
+    <string name="check_in_in_zone_description">Вы в рабочем радиусе! Можете начать работать.</string>
+    <string name="check_not_in_zone_title">Вы не в рабочем радиусе!</string>
+    <string name="check_in_not_in_zone_description">Вы не можете начать работу. Прибудьте на место работы.</string>
+    <string name="check_in_requirements_title">Вы не можете завершить рабочий день</string>
+    <string name="check_in_requirements_done">Выполнено</string>
+
+    <!--    Employees List -->
+    <string name="employees_list_title">Сотрудники</string>
+    <string name="employees_list_description">Доска почета за месяц</string>
+    <string name="employees_list_place">место</string>
+    <string name="employees_list_search_title">Поиск сотрудника</string>
+    <string name="employees_list_search_history">Вы ранее искали</string>
+    <string name="employees_list_search_history_clear">Очистить</string>
+    <string name="employees_list_all">Все</string>
+    <string name="employees_list_placeholder_title">Список пуст</string>
+    <string name="employees_list_placeholder_description_owner">У вас пока нет сотрудников в этом разделе</string>
+    <string name="employees_list_placeholder_description_employee">В этом разделе нет сотрудников вашего звена</string>
+
+    <string name="check_out_in_zone_description">Вы в рабочем радиусе! Можете завершить день.</string>
+    <string name="check_out_not_in_zone_description">Вы не можете завершить день. Прибудьте на место работы.</string>
+
+    <string name="check_without_zone_title">Проверка завершена!</string>
+    <string name="check_in_without_zone_description">Можете начать работать.</string>
+    <string name="check_out_without_zone_description">Можете завершить день.</string>
+
+    <string name="check_out_initial_date">Завершение работы для даты: %s</string>
+
+    <!--    Checklist -->
+    <string name="checklist">Чеклист</string>
+    <string name="checklist_point" translatable="false">%s pt</string>
+    <string name="checklist_inspect">Проверить</string>
+    <string name="checklist_execute">Выполнить</string>
+    <string name="checklist_hide_attachments">Скрыть прикрепленные файлы</string>
+    <string name="checklist_show_attachments">Показать прикрепленные файлы</string>
+    <string name="checklist_day_off_description">У вас сегодня выходной день!\nХорошего вам отдыха, набирайтесь сил!</string>
+    <string name="checklist_on_vacation_description">Наслаждайтесь отпуском! \nПосетите как можно больше мест \nи получите максимум впечатлений!\nДата выхода на работу: %s</string>
+    <string name="checklist_placeholder_description">На данный момент у вас пока нет чеклистов</string>
+
+    <!--    Account Settings -->
+    <string name="account_settings_title">Редактировать профиль</string>
+    <string name="account_settings_full_name">ФИО</string>
+    <string name="account_settings_first_name">Имя</string>
+    <string name="account_settings_last_name">Фамилия</string>
+    <string name="account_settings_middle_name">Отчество</string>
+    <string name="account_settings_phone_number">Номер телефона</string>
+    <string name="account_settings_role">Должность</string>
+    <string name="account_settings_input_old_password">Введите старый пароль</string>
+    <string name="account_settings_input_new_password">Введите новый пароль</string>
+    <string name="account_settings_input_new_password_repeat">Повторите новый пароль</string>
+    <string name="account_settings_save_password">Сохранить изменения</string>
+    <string name="account_settings_delete_avatar_title">Удалить фотографию</string>
+    <string name="account_settings_delete_avatar_description">Вы действительно хотите удалить эту фотографию?</string>
+    <string name="account_settings_change_avatar">Изменить фотографию</string>
+    <string name="account_settings_save">Сохранить изменения</string>
+    <string name="account_settings_save_done">Изменения успешно сохранены</string>
+    <string name="account_settings_company_code_title">ПРИГЛАСИТЕЛЬНЫЙ КОД ДЛЯ СОТРУДНИКОВ %s</string>
+    <string name="account_settings_delete_account">Удалить профиль</string>
+    <string name="account_settings_delete_account_warning">Внимание!</string>
+    <string name="account_settings_delete_account_title">Вы уверены, что хотите удалить аккаунт?</string>
+    <string name="account_settings_delete_account_description_owner">С аккаунтом будут также удалены аккаунты сотрудников и учредителей ваших организаций и данные, содержащиеся в вашем аккаунте. Это действие нельзя будет отменить, поэтому убедитесь, что вы принимаете решение осознанно.</string>
+    <string name="account_settings_delete_account_description_employee">С аккаунтом будут также удалены данные, содержащиеся в вашем аккаунте. Ваши данные будут сохранены до %s, при желании, вы можете восстановить свой аккаунт до этой даты</string>
+    <string name="account_settings_role_owner">Владелец</string>
+    <string name="account_settings_role_co_owner">Совладелец</string>
+    <string name="account_settings_intent_chooser_title">Способ</string>
+
+
+    <!--    Change Password Settings -->
+    <string name="change_password_succsess">Пароль успешно изменен!</string>
+    <string name="change_password_incorrect_old_password">Неверный старый пароль</string>
+
+    <!--    Change Phone Number Settings -->
+    <string name="settings_edit_phone_number_title">Редактировать номер телефона</string>
+    <string name="settings_edit_phone_number_description">Введите номер телефона на который хотите изменить, на него придет смс-код для подтверждения номера</string>
+    <string name="settings_edit_phone_number_updated">Номер телефона успешно изменен!</string>
+    <string name="settings_edit_phone_number_error">Данный номер уже зарегестрирован, обратитесь к администратору</string>
+
+    <!--    About app Settings -->
+    <string name="about_app_version">Версия %s</string>
+    <string name="about_app_description">Данное приложение было разработано компанией BePRO Holding. По всем вопросам можете обращаться по адресу bepro.company.kz@gmail.com</string>
+
+    <!--    Colleague  -->
+    <string name="colleague_title">Сотрудник</string>
+    <string name="colleague_score">Баллы PRO</string>
+    <string name="colleague_timesheet">Табель</string>
+    <string name="colleague_statistic">Статистика</string>
+
+    <!--    Tasks -->
+    <string name="tasks_title">Доска PRO</string>
+    <string name="tasks_title_2">Задача %s</string>
+    <string name="tasks_description">Список задач для сотрудников</string>
+    <string name="tasks_week">Неделя</string>
+    <string name="tasks_today">Сегодня</string>
+    <string name="tasks_backlog">Бэклог</string>
+    <string name="tasks_done">Выполнено</string>
+    <string name="tasks_my_tasks">Мои задачи</string>
+    <string name="tasks_assigned_to_me">Назначенные мне</string>
+    <string name="tasks_audio_tooltip_initial">Удерживайте для аудио записи. Нажмите для переключения в текст</string>
+    <string name="tasks_audio_tooltip_playing_cancel">Для отмены выйдите за пределы поля</string>
+    <string name="tasks_new_task">Новая задача</string>
+    <string name="tasks_text">Текст</string>
+    <string name="tasks_attach">Прикрепить</string>
+    <string name="tasks_file_or_photo">Файл или фото</string>
+    <string name="tasks_for_whom">Для кого?</string>
+    <string name="tasks_inspector">Проверяющий</string>
+    <string name="tasks_where">Куда</string>
+    <string name="tasks_priority">Сложность</string>
+    <string name="tasks_select_inspector">Выберите проверяющего</string>
+    <string name="tasks_select_executor">Выберите исполнителя</string>
+    <string name="tasks_select_where">Выберите время задачи</string>
+    <string name="tasks_select_date">Выберите дату</string>
+    <string name="tasks_select_priority">Выберите приоритет</string>
+    <string name="tasks_placeholder_text">Введите текст</string>
+    <string name="tasks_when">Когда?</string>
+    <string name="tasks_choose_date">Выберите дату</string>
+    <string name="tasks_description_task">Описание задачи</string>
+    <string name="tasks_status_low">Низкий</string>
+    <string name="tasks_status_medium">Средний</string>
+    <string name="tasks_status_high">Высокий</string>
+    <string name="tasks_status_highest">Самый высокий</string>
+    <string name="tasks_complete">Выполнено</string>
+    <string name="tasks_for_complete">Выполнить до</string>
+    <string name="tasks_author">Автор</string>
+    <string name="tasks_executor">Выполняющий</string>
+    <string name="tasks_author_executor">Автор / Выполняющий</string>
+    <string name="tasks_author_inspector">Автор / Проверяющий</string>
+    <string name="tasks_inspector_executor">Проверяющий / Выполняющий</string>
+    <string name="tasks_author_inspector_executor">Автор / Выполняющий / Проверяющий</string>
+    <string name="tasks_approve">Утвердить</string>
+    <string name="tasks_reject">Отклонить</string>
+    <string name="tasks_move_request_action_title">%1$s запросил перенос дедлайна задачи с %2$s на %3$s</string>
+    <string name="tasks_open_camera">Сделать фото</string>
+    <string name="tasks_take_video">Снять видео</string>
+    <string name="tasks_choose_photo">Выбрать из галереи</string>
+    <string name="tasks_choose_file">Файлы</string>
+    <string name="tasks_error_file_loading">Файлы загружаются…</string>
+    <string name="tasks_error_drag">Сначала откройте задачу</string>
+    <string name="tasks_photo_name">Фото</string>
+    <string name="tasks_video_name">Видео</string>
+    <string name="tasks_file_name">Файл</string>
+    <string name="tasks_remind">Напомнить</string>
+    <string name="tasks_edit_task">Редактирование задачи</string>
+    <string name="tasks_edit_task_complete">Задача успешно изменен</string>
+    <string name="tasks_remind_success">Напоминание успешно отправлено</string>
+
+    <!--    Tariff  -->
+    <string name="tariff_title">Тарифы</string>
+    <string name="tariff_tariff">Тариф</string>
+    <string name="tariff_description">Подписка и преимущества</string>
+    <string name="tariff_accepted">Подключено</string>
+    <string name="tariff_subscription_end">Ежемесячная подсписка, срок истекает %s</string>
+    <string name="tariff_price">%s ₸</string>
+    <string name="tariff_only_price">%s ₸</string>
+    <string name="tariff_benefits">Преимущества подписки</string>
+    <string name="tariff_other_tariffs">Посмотреть другие тарифы</string>
+    <string name="tariff_individual_pro">Индивидуальная подписка Be PRO %s</string>
+    <string name="tariff_days_left_alert">Осталось %s дней до конца подписки</string>
+    <string name="tariff_expires">Подписка на %s, срок истекает %s</string>
+
+    <string name="tariff_tariff_name">%s Тариф</string>
+    <string name="tariff_name_tariff">Тариф %s</string>
+    <string name="tariff_employee_count">до %s сотрудников</string>
+    <string name="tariff_price_per_month">Цена указана за 1 месяц</string>
+    <string name="tariff_prolong">Продлить</string>
+    <string name="tariff_prolong_title">Выберите период подписки</string>
+    <string name="tariff_prolong_next">Продлить тариф после завершения текущего</string>
+    <string name="tariff_prolong_cost_tariff">Стоимость %s:</string>
+    <string name="tariff_prolong_deduction">Вычет остатка:</string>
+    <string name="tariff_prolong_credited">Начислится на баланс:</string>
+    <string name="tariff_prolong_total">Итогo:</string>
+    <string name="tariff_reconnect">Переподключить</string>
+    <string name="tariff_connect">Подключить</string>
+    <string name="tariff_tariffs">Тарифы</string>
+    <string name="tariff_send_request">Отправить заявку</string>
+    <string name="tariff_send_request_done">Заявка успешно отправлена</string>
+    <string name="tariff_send_request_done_description">Ожидайте, менеджер с вами свяжется по поводу оплаты и регистрации аккаунта</string>
+    <string name="tariff_period">Срок действия: %s месяца</string>
+    <string name="tariff_start_date">Дата начала: %s</string>
+    <string name="tariff_end_date">Дата конца: %s</string>
+    <string name="tariff_status_new">Ожидается</string>
+    <string name="tariff_status_accepted">Активный</string>
+    <string name="tariff_status_expired">Завершен</string>
+    <string name="tariff_status_declined">Отклонен</string>
+    <string name="tariff_status_prepaid">Оплачен</string>
+    <string name="tariff_status_canceled">Сменил тариф</string>
+
+    <!--    Score And Plan  -->
+    <string name="score_plan_title">Баллы и статистика</string>
+
+    <!--    Employee Feed  -->
+    <string name="employee_feed_title">Лента сотрудников</string>
+    <string name="employee_feed_work_date">Работает с %s</string>
+    <string name="employee_feed_analysis">Сделать анализ</string>
+    <string name="employee_feed_placeholder_title">Изменений нет</string>
+    <string name="employee_feed_placeholder_description">На данный момент у вас в компании все стабильно</string>
+
+    <!--     Businessman Home -->
+    <string name="businessman_home_projects">%s проекта</string>
+    <string name="businessman_chart_month">Месяц</string>
+    <string name="businessman_chart_period">Период</string>
+    <string name="businessman_chart_info_attendance_text">Количество сотрудников присутствуют на работе за данный период</string>
+    <string name="businessman_chart_info_errors_text">Количество ошибок на работе за данный период</string>
+    <string name="businessman_chart_info_lates_text">Количество времени, опоздавших на работу за данный период</string>
+
+    <string name="businessman_chart_errors_count">%s сотрудников</string>
+    <string name="businessman_chart_attendance_count">%s сотрудников</string>
+    <string name="businessman_chart_lates_count">%s сотрудников</string>
+    <string name="businessman_chart_title">Средний балл сотрудников</string>
+
+    <plurals name="seconds_ago">
+        <item quantity="one">%d секунду назад</item>
+        <item quantity="other">%d секунд назад</item>
+    </plurals>
+
+    <plurals name="minutes_ago">
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="other">%d минут назад</item>
+    </plurals>
+
+    <plurals name="hours_ago">
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="other">%d часов назад</item>
+    </plurals>
+
+    <plurals name="days_ago">
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="other">%d дней назад</item>
+    </plurals>
+
+    <plurals name="weeks_ago">
+        <item quantity="one">%d неделю назад</item>
+        <item quantity="other">%d недели назад</item>
+    </plurals>
+
+    <plurals name="months_ago">
+        <item quantity="one">%d месяц назад</item>
+        <item quantity="other">%d месяцев назад</item>
+    </plurals>
+
+    <plurals name="years_ago">
+        <item quantity="one">%d год назад</item>
+        <item quantity="few">%d года назад</item>
+        <item quantity="other">%d лет назад</item>
+    </plurals>
+
+    <!--     Form Send Test  -->
+    <string name="form_send_test_title">Отправить тест</string>
+    <string name="form_send_test_full_name">ФИО сотрудника</string>
+    <string name="form_send_test_full_name_placeholder">Введите ФИО</string>
+    <string name="form_send_test_type_test">Тип теста</string>
+    <string name="form_send_test_type_test_placeholder">Выберите тип теста</string>
+    <string name="form_send_test_birth_date">Дата рождения сотрудника</string>
+    <string name="form_send_test_birth_date_placeholder">Выберите дату рождение</string>
+    <string name="form_send_test_email">Email</string>
+    <string name="form_send_test_email_placeholder">Введите email</string>
+    <string name="form_send_test_phone_number">Номер телефон сотрудника</string>
+    <string name="form_send_test_send">Отправить</string>
+    <string name="form_send_test_heart">Тест Сердце</string>
+    <string name="form_send_test_brain">Тест Мозг</string>
+    <string name="form_send_test_heart_pro">Тест Сердце PRO</string>
+    <string name="form_send_test_brain_pro">Тест Мозг PRO</string>
+    <string name="form_send_test_version">Вариант теста</string>
+    <string name="form_send_test_version_placeholder">Выберите вариант</string>
+    <string name="form_send_test_already_exists_title">Уверены ли вы, что хотите повторно назначить тест?</string>
+
+
+    <!--    Link Test  -->
+    <string name="link_test_title">Ссылка на тест успешно сформирована</string>
+    <string name="link_test_description">Чтобы поделиться ссылкой нажмите на кнопку ниже</string>
+    <string name="link_test_send_link">Отправить ссылку</string>
+    <string name="link_test_copy_sucsses">Ссылка успешно скопировано</string>
+
+    <!--    Analysis   -->
+    <string name="analysis_title">Анализ</string>
+    <string name="analysis_description">Ваш сотрудник может быть заражен вирусами. Вам нужно заранее вылечить его чтобы он не заразил других.</string>
+    <string name="analysis_diseases_sip_a">Болезнь SIP-A: По опозданиям</string>
+    <string name="analysis_diseases_sip_b">Болезнь SIP-B: Невыполнение задачи</string>
+    <string name="analysis_diseases_sip_c">Болезнь SIP-C: Отсутствие</string>
+
+    <!--    Bonus Program -->
+    <string name="bonus_title">Мои бонусы</string>
+    <string name="bonus_placeholder_title">У вас пока нет бонусов</string>
+    <string name="bonus_placeholder_description">На данный момент у вас нет\n приглашенных пользователей.</string>
+    <string name="bonus_invite_businessman">Пригласить бизнесмена</string>
+    <string name="bonus_information">Как это работает?</string>
+    <string name="bonus_information_description">Пригласите друга бизнесмена в BePRO Gamby и и получите скидку 5% от покупки друга.\n\nДля этого просто поделитесь с ними своим персональным кодом.</string>
+    <string name="bonus_information_title">Делитесь своим кодом c другими и получайте бонусы</string>
+    <string name="bonus_information_first_title">Бизнесмен А приглашает Бизнесмена B</string>
+    <string name="bonus_information_first_description">Если Бизнесмен B оплачивает подписку, Бизнесмен А получает 5% от суммы.</string>
+    <string name="bonus_received_title">Список компаний в моей реферальной системе</string>
+    <string name="bonus_received_company">%s компании</string>
+    <string name="bonus_received_total_discount">Общая сумма скидки: %s ₸</string>
+    <string name="bonus_received_total_bonus">Общая сумма бонусов:</string>
+    <string name="bonus_received_total_bonus_amount">%s ₸</string>
+    <string name="bonus_invite_title">Приглашайте друзей и получайте бонусы!</string>
+
+    <!--    Documents -->
+    <string name="documents_title">Документооборот</string>
+    <string name="documents_filter_type">Тип документа</string>
+    <string name="documents_filter_status">Статус</string>
+    <string name="documents_account_title">Документы</string>
+    <string name="documents_empty_title">Список пуст</string>
+    <string name="documents_empty_description">На данный момент у вас пока нет документов </string>
+    <string name="documents_empty_action">Создать документ</string>
+    <string name="documents_see_file_action">Предпросмотр документа</string>
+    <string name="documents_type_item">Тип: %s</string>
+    <string name="documents_status_done">Готово</string>
+    <string name="documents_status_waiting">Ожидается</string>
+    <string name="documents_status_to_sign">Подпишите</string>
+    <string name="documents_status_draft">Черновик</string>
+    <string name="documents_sucess_sign">%s успешно подписан</string>
+    <string name="documents_sucess_send_title">Договор успешно отправлен сотруднику</string>
+    <string name="documents_sucess_send_description">Пожалуйста, ожидайте подпись сотрудника</string>
+    <string name="documents_templates_select_title">Выберите тип документа</string>
+    <string name="documents_status_select_title">Выберите статус</string>
+    <string name="documents_template_fill_title">Заполните поля анкеты</string>
+    <string name="documents_template_create_send_to_employee">Отправить сотруднику</string>
+    <string name="documents_template_create_sign">Подписать</string>
+    <string name="documents_info_title">Что означают статусы у документов?</string>
+
+    <string name="documents_info_status_to_sign">Статус “подпишите”</string>
+    <string name="documents_info_status_to_sign_description">Этот статус означает, что необходимо ознакомиться с документом и подписать его</string>
+
+    <string name="documents_info_status_waiting">Статус “ожидается”</string>
+    <string name="documents_info_status_waiting_description">Этот статус означает, что необходимо ознакомиться с документом и подписать его</string>
+
+    <string name="documents_info_status_done">Статус “готово”</string>
+    <string name="documents_info_status_done_description">Этот статус означает, что необходимо ознакомиться с документом и подписать его</string>
+
+    <string name="documents_info_status_draft">Статус “черновик”</string>
+    <string name="documents_info_status_draft_description">Этот статус означает, что анкета не заполнена полностью и есть возможность редактирования</string>
+
+    <string name="documents_template_fill_title_action">Заполнить анкету</string>
+    <string name="documents_template_property_no">Имущество №%d</string>
+    <string name="documents_template_property_delete_alert">Вы действительно хотите удалить это имущество?</string>
+    <string name="documents_template_add_property">Добавить имущество</string>
+    <string name="documents_template_property_name">Наименование</string>
+    <string name="documents_template_property_name_hint">Введите наименование</string>
+    <string name="documents_template_property_date">Дата передачи</string>
+    <string name="documents_template_property_date_hint">Дата передачи</string>
+    <string name="documents_template_property_notes">Примечание</string>
+    <string name="documents_template_property_notes_hint">Введите примечание</string>
+
+    <string name="documents_exit_alert_title">Сохранить данные?</string>
+    <string name="documents_exit_alert_description">Хотите сохранить заполненные поля на следующий раз? Документ сохранится как “черновик”</string>
+
+    <string name="documents_delete_alert_title">Вы точно хотите удалить документ?</string>
+    <string name="documents_resend_action">Отправить на перезаполнение</string>
+
+    <!--   Gamby Card  -->
+    <string name="gamby_card_familiarized">Ознакомлен</string>
+    <string name="gamby_card_task_number">Задача №%s</string>
+    <string name="gamby_card_change_company">Выбрать другую организацию</string>
+    <string name="gamby_card_test_results">Результаты теста</string>
+    <string name="gamby_card_expired_tariff_1">Ваш тариф %s</string>
+    <string name="gamby_card_expired_tariff_2">истек %s</string>
+    <string name="gamby_card_expired_tariff_3">, для того, чтобы разблокировать возможности приложения, продлите тариф.</string>
+    <string name="language_kz" translatable="false">Қазақша</string>
+    <string name="language_en" translatable="false">English</string>
+</resources>

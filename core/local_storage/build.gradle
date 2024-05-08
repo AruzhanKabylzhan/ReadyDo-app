@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+
+apply from: "$rootDir/module-default-config.gradle"
+
+android {
+    namespace "kz.rdd.core.local_storage"
+}
+
+dependencies {
+    implementation project(":core:utils")
+
+    implementation coroutines
+    implementation koin
+
+    implementation androidxLifecycleCommon
+    implementation androidxLifecycleViewModel
+    implementation androidxLifecycleViewModelKtx
+    implementation androidxSecurityCrypto
+    implementation composeRuntime
+
+    implementation timber
+    implementation gson
+}

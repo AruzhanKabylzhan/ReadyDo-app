@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+
+apply from: "$rootDir/module-default-config.gradle"
+
+android {
+    namespace "kz.rdd.busket"
+}
+
+dependencies {
+    implementation project(":core:ui")
+    implementation project(":core:network")
+    implementation project(":core:forefront_nav")
+    implementation project(":core:bottom_nav")
+    implementation project(":core:store")
+    implementation project(":core:utils")
+    implementation project(":core:local_storage")
+
+    implementation coroutines
+    implementation koin
+    implementation koinCompose
+
+    implementation androidxLifecycleCommon
+    implementation androidxLifecycleViewModel
+    implementation androidxLifecycleViewModelKtx
+    implementation navigation.values()
+    implementation accompanist.values()
+
+    implementation materialCompose
+    implementation coil
+
+    implementation timber
+    implementation gson
+    implementation retrofitConverterGson
+}

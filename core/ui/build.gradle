@@ -1,0 +1,57 @@
+apply plugin: 'com.android.library'
+
+apply from: "$rootDir/module-default-config.gradle"
+
+android {
+    namespace "kz.rdd.core.ui"
+}
+
+android {
+    buildFeatures {
+        compose = true
+    }
+}
+
+dependencies {
+    implementation project(":core:utils")
+    implementation project(":core:store")
+    implementation project(":core:user")
+    implementation project(":core:local_storage")
+
+    implementation(platform(composeBom))
+
+    api composeUi
+    api composeUiUtil
+
+    implementation coroutines
+    implementation koin
+    implementation koinCompose
+
+    implementation androidxLifecycleCommon
+    implementation androidxLifecycleViewModel
+    implementation androidxLifecycleViewModelKtx
+
+    api materialCompose
+    api material3
+    api composeToolingPreview
+    implementation navigation.values()
+    implementation accompanist.values()
+    implementation coil
+    implementation shimmer
+    implementation composeZoom
+    implementation balloon
+    implementation activityCompose
+
+    implementation exoPlayer
+    implementation exoPlayerDash
+    implementation exoPlayerUi
+
+    implementation imageCropper
+
+    implementation timber
+    implementation gson
+
+    implementation lottie
+    implementation processPhoenix
+
+}

@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+apply from: "$rootDir/common-default-config.gradle"
+
+android {
+    namespace "kz.rdd"
+    buildTypes {
+        release {
+            manifestPlaceholders = [
+                    appName: "@string/app_name",
+            ]
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".dev"
+            manifestPlaceholders = [
+                    appName: "ReadyDo",
+            ]
+        }
+    }
+    defaultConfig {
+        applicationId "kz.rdd"
+
+        resConfigs "en"
+    }
+    applicationVariants.configureEach { variant ->
+        variant.outputs.configureEach {
+            // APK naming
+            outputFileName = "readydo-app-${variant.buildType.name}-${versionName}.${versionCode}.apk"
+        }
+    }
+}
+
+dependencies {
+    implementation project(":core:ui")
+    implementation project(":core:network")
+    implementation project(":core:store")
+    implementation project(":core:utils")
+    implementation project(":core:user")
+    implementation project(":core:forefront_nav")
+    implementation project(":core:local_storage")
+    implementation project(":core:bottom_nav")
+    implementation project(":feature:login")
+    implementation project(":feature:home")
+    implementation project(":feature:chats")
+    implementation project(":feature:catalog")
+    implementation project(":feature:busket")
+    implementation project(":feature:profile")
+
+    implementation platform(composeBom)
+
+    implementation coreKtx
+    implementation lifecycleRuntime
+    implementation activityCompose
+    implementation composeRuntime
+    implementation splashscreen
+    implementation composeUi
+    implementation composeUiUtil
+    implementation composeToolingPreview
+    implementation materialCompose
+    implementation material3
+    implementation navigation.values()
+    implementation koin
+    implementation koinCompose
+    implementation imageCropper
+    testImplementation junit
+    debugImplementation composeDebugTooling
+    debugImplementation composeDebugTestManifest
+}

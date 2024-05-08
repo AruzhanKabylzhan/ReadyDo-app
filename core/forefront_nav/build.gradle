@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+apply from: "$rootDir/module-default-config.gradle"
+
+android {
+    namespace "kz.rdd.core.forefront_nav"
+}
+
+dependencies {
+    implementation project(":core:utils")
+    implementation project(":core:ui")
+
+    implementation coroutines
+    implementation koin
+    implementation koinCompose
+
+    implementation composeRuntime
+
+    implementation androidxLifecycleCommon
+    implementation androidxLifecycleViewModel
+    implementation androidxLifecycleViewModelKtx
+
+    implementation materialCompose
+
+    implementation timber
+}

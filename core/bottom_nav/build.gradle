@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+apply from: "$rootDir/module-default-config.gradle"
+
+android {
+    namespace "kz.rdd.core.bottom_nav"
+}
+
+dependencies {
+    implementation project(":core:utils")
+    implementation project(":core:network")
+    implementation project(":core:store")
+    implementation project(":core:ui")
+    implementation project(":core:forefront_nav")
+
+    implementation coroutines
+    implementation koin
+    implementation koinCompose
+
+    implementation composeRuntime
+
+    implementation androidxLifecycleCommon
+    implementation androidxLifecycleViewModel
+    implementation androidxLifecycleViewModelKtx
+
+    implementation materialCompose
+    implementation coil
+
+    implementation timber
+    implementation gson
+}

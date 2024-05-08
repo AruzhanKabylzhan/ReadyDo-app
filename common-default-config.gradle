@@ -1,0 +1,52 @@
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-parcelize'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+android {
+    compileSdkVersion targetSdk
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdk
+        targetSdkVersion rootProject.ext.targetSdk
+
+        versionCode 1
+        versionName "1.0.0"
+
+        buildConfigField("int", "VERSION_CODE", "${versionCode}")
+        buildConfigField("String", "VERSION_NAME", "\"${versionName}\"")
+
+        vectorDrawables {
+            useSupportLibrary true
+        }
+
+        resConfigs "en"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlin {
+        jvmToolchain(17)
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    buildFeatures {
+        compose true
+        buildConfig true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.5.1'
+    }
+}
+
+dependencies {
+    implementation timber
+    testImplementation junit
+
+    implementation coreKtx
+}

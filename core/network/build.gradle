@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+apply from: "$rootDir/module-default-config.gradle"
+
+android {
+    namespace "kz.rdd.core.network"
+}
+
+dependencies {
+    implementation project(":core:utils")
+    implementation project(":core:store")
+
+    api retrofit
+    implementation coroutines
+    implementation koin
+
+    implementation retrofitConverterGson
+
+    implementation timber
+    implementation gson
+    implementation composeRuntime
+
+    debugImplementation chuckerDebug
+    releaseImplementation chuckerDebug
+}

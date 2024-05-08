@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Common-->
+    <string name="error_app_for_intent_not_found">Құрылғыда әрекетті орындау үшін қолданба табылған жоқ</string>
+    <string name="common_settings">Баптаулар</string>
+    <string name="common_permission_permit">Рұқсат ету</string>
+    <string name="common_permission_later">Кейінірек</string>
+    <string name="common_permission_gelocation_title">Геодеректерге қол жеткізу</string>
+    <string name="common_permission_gelocation_description">Белгілеу геодеректерге қол жеткізуді қажет етеді</string>
+
+    <string name="common_permission_audio_title">Микрофонға рұқсат қажет</string>
+    <string name="common_permission_audio_description">Аудио жазу үшін микрофонға рұқсат қажет.\nҚолданба параметрлеріне өтіп кіруді қосыңыз</string>
+
+    <string name="common_permission_location_title">Геолокация өшірілген</string>
+    <string name="common_permission_location_description">Қолданбаның дұрыс жұмыс істеуі үшін орынды анықтауды қосыңыз.</string>
+
+    <string name="common_checklist_check_out_title">Сіз құсбелгіні қоя алмайсыз</string>
+    <string name="common_checklist_check_out_description">Сіз бұл күнді өткізіп алдыңыз</string>
+
+    <string name="common_checklist_check_in_title">Сіз құсбелгіні қоя алмайсыз</string>
+    <string name="common_checklist_check_in_description">Сіз күнді әлі бастаған жоқсыз</string>
+
+    <string name="common_take_off_title">Сіз сұрана алмайсыз</string>
+    <string name="common_take_off_description">Сіз бұл күнді өткізіп алдыңыз</string>
+
+    <string name="common_logout_title">Сіз шыққыңыз келетініне сенімдісіз бе?</string>
+    <string name="common_logout_description">Сіз шыққыңыз келетініне сенімдісіз бе?</string>
+    <string name="common_delete_description">Сіз жойғыңыз келетініне сенімдісіз бе?</string>
+
+    <string name="documents_saved">Файл “/Documents“ бөліміне сақталды!</string>
+    <string name="common_done">Дайын</string>
+
+    <string name="common_all">Барлығы</string>
+    <string name="common_delete">Өшіру</string>
+    <string name="common_yes">Иә</string>
+    <string name="common_no">Жоқ</string>
+    <string name="common_ok">Ок</string>
+    <string name="common_cancel">Бас тарту</string>
+    <string name="common_cancel_action">Бас тарту</string>
+    <string name="common_password">Құпиясөз</string>
+    <string name="common_password_hint">Құпиясөзді енгізіңіз</string>
+    <string name="common_registration">Тіркелу</string>
+    <string name="common_sec">%d сек</string>
+    <string name="common_continue">Жалғастыру</string>
+    <string name="common_apply">Қолдану</string>
+    <string name="common_hour">%.1f сағ</string>
+    <string name="common_hour_clearly">%s сағ</string>
+    <string name="common_hour_and_min">%d сағ\n%d мин</string>
+    <string name="common_hour_and_min_check_in">%d сағ %d мин</string>
+    <string name="common_min">%d мин</string>
+    <string name="common_logout">Шығу</string>
+    <string name="common_year">Жыл</string>
+    <string name="common_month">Ай</string>
+    <string name="common_today">Бүгін</string>
+    <string name="common_add">Қосу</string>
+    <string name="common_start">Бастау</string>
+    <string name="common_end">Аяқтау</string>
+    <string name="common_detailed">Толығырақ</string>
+    <string name="common_other">Басқа</string>
+    <string name="common_back">Артқа</string>
+    <string name="common_crop">Кесу</string>
+    <string name="common_view">Көру</string>
+    <string name="common_attention">Назар аударыңыз!</string>
+
+    <string name="common_no_data">Мәлімет жоқ</string>
+    <string name="common_no_search_data">Еш нәрсе табылмады</string>
+    <string name="common_no_search_data_description">Сұрауыңызға сәйкес деректер жоқ</string>
+    <string name="common_share">Бөлісу</string>
+
+    <!--    Common Success-->
+    <string name="common_success_request">Сұраныс сәтті жіберілді!</string>
+
+    <string name="common_error_connection">Интернетке қосылу бойынша қателік</string>
+    <string name="common_error_unknown">Бірдеңе дұрыс болмады, қайталап көріңіз</string>
+    <string name="common_error_required_field">Міндетті өріс</string>
+
+    <!--    Country names -->
+    <string name="country_kz">Қазақстан</string>
+    <string name="country_ru">Ресей</string>
+    <string name="country_us">США</string>
+    <string name="country_ae">БАӘ</string>
+    <string name="country_af">Афганистан</string>
+    <string name="country_al">Албания</string>
+    <string name="country_dz">Алжир</string>
+    <string name="country_as">Американское Самоа</string>
+    <string name="country_ad">Андорра</string>
+    <string name="country_ao">Ангола</string>
+    <string name="country_ai">Ангилья</string>
+    <string name="country_aq">Антарктида</string>
+    <string name="country_ag">Антигуа и Барбуда</string>
+    <string name="country_ar">Аргентина</string>
+    <string name="country_am">Армения</string>
+    <string name="country_aw">Аруба</string>
+    <string name="country_au">Австралия</string>
+    <string name="country_at">Австрия</string>
+    <string name="country_az">Азербайджан</string>
+    <string name="country_bs">Багамские Острова</string>
+    <string name="country_bh">Бахрейн</string>
+    <string name="country_bd">Бангладеш</string>
+    <string name="country_bb">Барбадос</string>
+    <string name="country_by">Беларусь</string>
+    <string name="country_be">Бельгия</string>
+    <string name="country_bz">Белиз</string>
+    <string name="country_bj">Бенин</string>
+    <string name="country_bm">Бермуды</string>
+    <string name="country_bt">Бутан</string>
+    <string name="country_bo">Боливия</string>
+    <string name="country_ba">Босния и Герцеговина</string>
+    <string name="country_bw">Ботсвана</string>
+    <string name="country_br">Бразилия</string>
+    <string name="country_bn">Бруней</string>
+    <string name="country_bg">Болгария</string>
+    <string name="country_bf">Буркина-Фасо</string>
+    <string name="country_bi">Бурунди</string>
+    <string name="country_kh">Камбоджа</string>
+    <string name="country_cm">Камерун</string>
+    <string name="country_ca">Канада</string>
+    <string name="country_cv">Кабо-Верде</string>
+    <string name="country_ky">Каймановы острова</string>
+    <string name="country_cf">Центрально-Африканская Республика</string>
+    <string name="country_td">Чад</string>
+    <string name="country_cl">Чили</string>
+    <string name="country_cn">Китай</string>
+    <string name="country_cx">Остров Рождества</string>
+    <string name="country_cc">Кокосовые острова</string>
+    <string name="country_co">Колумбия</string>
+    <string name="country_km">Коморы</string>
+    <string name="country_cd">Конго (бывший Заир)</string>
+    <string name="country_cg">Конго</string>
+    <string name="country_ck">Острова Кука</string>
+    <string name="country_cr">Коста-Рика</string>
+    <string name="country_ci">Кот дИвуар</string>
+    <string name="country_hr">Хорватия</string>
+    <string name="country_cu">Куба</string>
+    <string name="country_cy">Кипр</string>
+    <string name="country_cz">Чехия</string>
+    <string name="country_dk">Дания</string>
+    <string name="country_dj">Джибути</string>
+    <string name="country_dm">Доминика</string>
+    <string name="country_do">Доминиканская Республика</string>
+    <string name="country_tl">Восточный Тимор</string>
+    <string name="country_ec">Эквадор</string>
+    <string name="country_eg">Египет</string>
+    <string name="country_sv">Сальвадор</string>
+    <string name="country_gq">Экваториальная Гвинея</string>
+    <string name="country_er">Эритрея</string>
+    <string name="country_ee">Эстония</string>
+    <string name="country_et">Эфиопия</string>
+    <string name="country_fk">Фолклендские острова</string>
+    <string name="country_fo">Фарерские острова</string>
+    <string name="country_fj">Фиджи</string>
+    <string name="country_fi">Финляндия</string>
+    <string name="country_fr">Франция</string>
+    <string name="country_gf">Французская Гвиана или Гайана</string>
+    <string name="country_pf">Французская Полинезия</string>
+    <string name="country_ga">Габон (Габонская Республика)</string>
+    <string name="country_gm">Гамбия</string>
+    <string name="country_ge">Грузия</string>
+    <string name="country_de">Германия</string>
+    <string name="country_gh">Гана</string>
+    <string name="country_gi">Гибралтар</string>
+    <string name="country_gr">Греция</string>
+    <string name="country_gl">Гренландия</string>
+    <string name="country_gd">Гренада</string>
+    <string name="country_gp">Гваделупа</string>
+    <string name="country_gu">Гуам</string>
+    <string name="country_gt">Гватемала</string>
+    <string name="country_gn">Гвинея (бывшая Французская Гвинея)</string>
+    <string name="country_gw">Гвинея-Бисау</string>
+    <string name="country_gy">Гайана</string>
+    <string name="country_ht">Гаити</string>
+    <string name="country_hn">Гондурас</string>
+    <string name="country_hk">Гонконг</string>
+    <string name="country_hu">Венгрия</string>
+    <string name="country_is">Исландия</string>
+    <string name="country_in">Индия</string>
+    <string name="country_id">Индонезия</string>
+    <string name="country_ir">Иран, Исламская Республика</string>
+    <string name="country_iq">Ирак</string>
+    <string name="country_ie">Ирландия</string>
+    <string name="country_il">Израиль</string>
+    <string name="country_it">Италия</string>
+    <string name="country_jm">Ямайка</string>
+    <string name="country_jp">Япония</string>
+    <string name="country_jo">Иордания (бывший Трансйордания)</string>
+    <string name="country_ke">Кения</string>
+    <string name="country_ki">Кирибати</string>
+    <string name="country_kp">Корея (КНДР)</string>
+    <string name="country_kr">Корея (Южная Корея)</string>
+    <string name="country_kw">Кувейт</string>
+    <string name="country_kg">Киргизия</string>
+    <string name="country_la">Лаос</string>
+    <string name="country_lv">Латвия</string>
+    <string name="country_lb">Ливан</string>
+    <string name="country_ls">Лесото</string>
+    <string name="country_lr">Либерия</string>
+    <string name="country_ly">Ливийская Арабская Джамахирия</string>
+    <string name="country_li">Лихтенштейн</string>
+    <string name="country_lt">Литва</string>
+    <string name="country_lu">Люксембург</string>
+    <string name="country_mo">Макао</string>
+    <string name="country_mk">Македония</string>
+    <string name="country_mg">Мадагаскар</string>
+    <string name="country_mw">Малави</string>
+    <string name="country_my">Малайзия</string>
+    <string name="country_mv">Мальдивы</string>
+    <string name="country_ml">Мали</string>
+    <string name="country_mt">Мальта</string>
+    <string name="country_mh">Маршалловы острова</string>
+    <string name="country_mq">Мартиника (французская)</string>
+    <string name="country_mr">Мавритания</string>
+    <string name="country_mu">Маврикий</string>
+    <string name="country_yt">Майотта</string>
+    <string name="country_mx">Мексика</string>
+    <string name="country_fm">Микронезия</string>
+    <string name="country_md">Молдавия</string>
+    <string name="country_mc">Монако</string>
+    <string name="country_mn">Монголия</string>
+    <string name="country_ms">Монтсеррат</string>
+    <string name="country_ma">Марокко</string>
+    <string name="country_mz">Мозамбик</string>
+    <string name="country_mm">Мьянма</string>
+    <string name="country_na">Намибия</string>
+    <string name="country_nr">Науру</string>
+    <string name="country_np">Непал</string>
+    <string name="country_nl">Нидерланды</string>
+    <string name="country_an">Нидерландские Антильские острова</string>
+    <string name="country_nc">Новая Каледония</string>
+    <string name="country_nz">Новая Зеландия</string>
+    <string name="country_ni">Никарагуа</string>
+    <string name="country_ne">Нигер</string>
+    <string name="country_ng">Нигерия</string>
+    <string name="country_nu">Ниуэ</string>
+    <string name="country_nf">Остров Норфолк</string>
+    <string name="country_mp">Северные Марианские острова</string>
+    <string name="country_no">Норвегия</string>
+    <string name="country_om">Оман</string>
+    <string name="country_pk">Пакистан</string>
+    <string name="country_pw">Палау</string>
+    <string name="country_ps">Государство Палестина</string>
+    <string name="country_pa">Панама</string>
+    <string name="country_pg">Папуа - Новая Гвинея</string>
+    <string name="country_py">Парагвай</string>
+    <string name="country_pe">Перу</string>
+    <string name="country_ph">Филиппины</string>
+    <string name="country_pn">Питкэрн</string>
+    <string name="country_pl">Польша</string>
+    <string name="country_pt">Португалия</string>
+    <string name="country_pr">Пуэрто-Рико</string>
+    <string name="country_qa">Катар</string>
+    <string name="country_re">Реюньон (французская)</string>
+    <string name="country_ro">Румыния</string>
+    <string name="country_rw">Руанда</string>
+    <string name="country_sh">Святая Елена</string>
+    <string name="country_kn">Сент-Китс и Невис</string>
+    <string name="country_lc">Сент-Люсия</string>
+    <string name="country_pm">Сен-Пьер и Микелон</string>
+    <string name="country_vc">Сент-Винсент и Гренадины</string>
+    <string name="country_ws">Самоа</string>
+    <string name="country_sm">Сан-Марино</string>
+    <string name="country_st">Сан-Томе и Принсипи</string>
+    <string name="country_sa">Саудовская Аравия</string>
+    <string name="country_rs">Сербия</string>
+    <string name="country_sn">Сенегал</string>
+    <string name="country_sc">Сейшельские острова</string>
+    <string name="country_sl">Сьерра-Леоне</string>
+    <string name="country_sg">Сингапур</string>
+    <string name="country_sk">Словакия</string>
+    <string name="country_si">Словения</string>
+    <string name="country_sb">Соломоновы острова</string>
+    <string name="country_so">Сомали</string>
+    <string name="country_za">Южно-Африканская Республика</string>
+    <string name="country_es">Испания</string>
+    <string name="country_lk">Шри-Ланка</string>
+    <string name="country_sd">Судан</string>
+    <string name="country_sr">Суринам</string>
+    <string name="country_sz">Свазиленд</string>
+    <string name="country_se">Швеция</string>
+    <string name="country_ch">Швейцария</string>
+    <string name="country_sy">Сирийская Арабская Республика</string>
+    <string name="country_tw">Тайвань (бывший Формоза)</string>
+    <string name="country_tj">Таджикистан</string>
+    <string name="country_tz">Танзания</string>
+    <string name="country_th">Таиланд (бывший Сиам)</string>
+    <string name="country_tg">Того (бывшая Французская Того)</string>
+    <string name="country_tk">Токелау</string>
+    <string name="country_to">Тонга</string>
+    <string name="country_tt">Тринидад и Тобаго</string>
+    <string name="country_tr">Туркия</string>
+    <string name="country_tm">Туркмения</string>
+    <string name="country_tn">Тунис</string>
+    <string name="country_tc">Острова Теркс и Кайкос</string>
+    <string name="country_tv">Тувалу (бывшие Элиссовы острова)</string>
+    <string name="country_ug">Уганда</string>
+    <string name="country_ua">Украина</string>
+    <string name="country_gb">Великобритания</string>
+    <string name="country_uy">Уругвай</string>
+    <string name="country_uz">Узбекистан</string>
+    <string name="country_vu">Вануату</string>
+    <string name="country_va">Ватикан (Святой Престол)</string>
+    <string name="country_ve">Венесуэла</string>
+    <string name="country_vn">Вьетнам</string>
+    <string name="country_vg">Британские Виргинские острова</string>
+    <string name="country_vi">Виргинские острова, США</string>
+    <string name="country_wf">Уоллис и Футуна</string>
+    <string name="country_ye">Йемен</string>
+    <string name="country_yu">Югославия</string>
+    <string name="country_zr">Заир</string>
+    <string name="country_zm">Замбия</string>
+    <string name="country_zw">Зимбабве</string>
+
+    <string name="audio_slide_to_cancel">Жою үшін сырғытыңыз</string>
+    <string name="loading_indicator_please_wait">Күте тұрыңыз</string>
+
+    <!--    Language -->
+    <string name="languages">Тілдер</string>
+    <string name="language_rus">Рус</string>
+    <string name="language_eng">Eng</string>
+    <string name="language_kaz">Қаз</string>
+
+    <!--    Login -->
+    <string name="login_title">Кіру</string>
+    <string name="login_forgot_password">Құпиясөзіңізді ұмыттыңыз ба?</string>
+    <string name="login_no_account">Жеке парақшаңыз жоқ па?</string>
+    <string name="login_restore_account_description">Аккаунтыңыз жойылды, аккаунтыңызды қалпына келтіргіңіз келе ме?</string>
+    <string name="login_account_activated">Сіздің аккаунтыңыз сәтті қалпына келтірілді</string>
+
+    <!--    Registration  -->
+    <string name="registration_title">Телефонды көрсетіңіз</string>
+    <string name="registration_next">Жалғастыру</string>
+    <string name="registration_accept">Мен келісемін</string>
+    <string name="registration_privacy_police">Құпиялылық саясатымен</string>
+    <string name="registration_set_password_title">Құпиясөзді ойлап табыңыз</string>
+    <string name="registration_password">Құпиясөз</string>
+    <string name="registration_password_hint">Құпиясөзді енгізіңіз</string>
+    <string name="registration_repeat_password">Құпиясөзді қайталаңыз</string>
+    <string name="registration_save">Сақтау</string>
+    <string name="registration_minimum_characters">Кемінде 8 таңба</string>
+    <string name="registration_minimum_numbers">Кемінде 1 сан</string>
+    <string name="registration_minimum_symbol">Кемінде 1 таңба</string>
+    <string name="registration_minimum_capital_letter">Кемінде 1 бас әріп</string>
+    <string name="registration_password_match_accept">Құпиясөздер сәйкес келеді</string>
+    <string name="registration_have_account">Кіру үшін құпия сөзді пайдаланыңыз</string>
+
+    <!--    Registration Type Choose  -->
+    <string name="registration_type_choose_title">Тіркелу</string>
+    <string name="registration_type_choose_select_type">Санатты таңдаңыз</string>
+    <string name="registration_type_choose_type_company">Компания</string>
+    <string name="registration_type_choose_type_employee">Қызметкер</string>
+    <string name="registration_type_choose_already_has_account">Есептік жазбаңыз бар ма?</string>
+
+    <!--    Registration Type Company -->
+    <string name="registration_company_title">Компанияны тіркеу формасы</string>
+    <string name="registration_company_phone_title">Телефон</string>
+    <string name="registration_company_name_title">Толық аты</string>
+    <string name="registration_company_name_hint">Толық аты-жөніңізді енгізіңіз</string>
+    <string name="registration_company_department_title">Бөлім</string>
+    <string name="registration_company_department_hint">Бөлімді таңдаңыз</string>
+    <string name="registration_company_company_name_title">Компания</string>
+    <string name="registration_company_company_name_hint">Компания атын енгізіңіз</string>
+    <string name="registration_company_business_name_title">Заңды тұлғаның фирмалық атауы</string>
+    <string name="registration_company_business_name_hint">Заңды тұлғаның атауын енгізіңіз</string>
+    <string name="registration_company_industry_age_title">Нарықта қанша жыл?</string>
+    <string name="registration_company_industry_age_hint">Жылдар санын енгізіңіз</string>
+    <string name="registration_company_amount_of_employees_title">Қанша қызметкер?</string>
+    <string name="registration_company_amount_of_employees_hint">Қызметкерлер санын енгізіңіз</string>
+    <string name="registration_company_email_title">Email</string>
+    <string name="registration_company_email_hint">Email енгізіңіз</string>
+    <string name="registration_company_privacy_policy_1">Мен</string>
+    <string name="registration_company_privacy_policy_2">Құпиялылық және жеке деректерді қорғау саясатымен</string>
+    <string name="registration_company_privacy_policy_3">таныстым және</string>
+    <string name="registration_company_privacy_policy_4">Пайдаланушы келісіміне</string>
+    <string name="registration_company_privacy_policy_5">жеке деректерімді өңдеуге келісемін</string>
+
+    <!--    Registration Invite Code -->
+    <string name="registration_invite_code_title">Компанияның шақыру кодын енгізіңіз</string>
+    <string name="registration_invite_code_hint">Компания кодын енгізіңіз</string>
+
+    <!--    Registration Employee Form -->
+    <string name="registration_employee_form_title">Қызметкерді тіркеу формасы</string>
+    <string name="registration_employee_first_name_title">Есім</string>
+    <string name="registration_employee_last_name_title">Тегі</string>
+    <string name="registration_employee_middle_name_title">Әкеңіздің атын</string>
+    <string name="registration_employee_first_name_hint">Есіміңізді енгізіңіз</string>
+    <string name="registration_employee_last_name_hint">Тегіңізді енгізіңіз</string>
+    <string name="registration_employee_middle_name_hint">Әкеңіздің атын енгізіңіз</string>
+
+    <!--    OTP -->
+    <string name="otp_title">Кодты енгізіңіз</string>
+    <string name="otp_retry">Қайтадан жіберу</string>
+    <string name="otp_description">Телефон нөмірін растаңыз сіздің нөміріңізге коды бар SMS жіберілді</string>
+    <string name="otp_action_timer">Сіз кодты ала аласыз</string>
+
+    <!--    User Profile -->
+    <string name="user_profile_on_time">Қатысу</string>
+    <string name="user_profile_absent">Болмау</string>
+    <string name="user_profile_late">Кешігу</string>
+
+    <!--    Notifications -->
+    <string name="notifications_title">Хабарландырулар</string>
+    <string name="notifications_empty_title">Хабарландырулар жоқ</string>
+    <string name="notifications_empty_description">Сізде қазір хабарландырулар жоқ.</string>
+    <string name="notifications_do_action">Әрекетті орындау?</string>
+
+    <string name="notifications_time_now">Сейчас</string>
+
+    <!--    Timesheet -->
+    <string name="timesheet_title">Табель</string>
+    <string name="timesheet_description">Ұзақ демалыс күндері, қатысу</string>
+    <string name="timesheet_errors">Қателер</string>
+    <string name="timesheet_attendance">Жұмыста бар</string>
+    <string name="timesheet_lates">Кешікті</string>
+    <string name="timesheet_on_time">Уақытылы</string>
+    <string name="timesheet_late">Кешігу</string>
+    <string name="timesheet_absent">Болмау</string>
+    <string name="timesheet_day_off">Демалыс</string>
+    <string name="timesheet_beg_off">Сұрандым</string>
+    <string name="timesheet_time_off">Ұзақ демалыс</string>
+    <string name="timesheet_late_on">Кешігу %s</string>
+
+    <!--    User Score Months -->
+    <string name="colleague_title">Қызметкер</string>
+    <string name="colleague_score">PRO ұпайлары</string>
+    <string name="colleague_timesheet">Табель</string>
+    <string name="colleague_statistic">Статистика</string>
+
+
+    <!--    User Score -->
+    <string name="score_title">Сіздің PRO ұпайларыңыз</string>
+    <string name="score_month_total">Бір айдағы жалпы ұпай саны:</string>
+    <string name="score_lost_points">Жоғалған ұпайлар:</string>
+
+    <!--    Settings -->
+    <string name="score_get_points">Алынған ұпайлар:</string>
+    <string name="settings_change_language">Тілді ауыстыру</string>
+    <string name="settings_account">Жеке парақша</string>
+    <string name="settings_support">Қолдау көрсету</string>
+    <string name="settings_about_app">Қосымша жайлы</string>
+    <string name="settings_change_password">Құпия сөзді өзгерту</string>
+    <string name="settings_change_phone_number">Телефон нөмірін өзгерту</string>
+    <string name="settings_payment_history">Төлем тарихы</string>
+
+    <!--    Plan Fact -->
+    <string name="plan_fact_title">Жоспар фактісі</string>
+    <string name="plan_fact_add">Бүгінгі күннің жоспарын қосу</string>
+    <string name="plan_fact_add_date">%s күннің жоспарын қосу</string>
+    <string name="plan_fact_given_plan">Алдын ала орнатылған жоспар</string>
+    <string name="plan_fact_my_plan">Сіздің жоспарыңыз</string>
+    <string name="plan_fact_y_axis_title">Кіріс</string>
+    <string name="plan_fact_add_name_hint">Атауы</string>
+    <string name="plan_fact_add_day_hint">Күні</string>
+    <string name="plan_fact_add_plan_hint">Орындау жоспары</string>
+    <string name="plan_fact_add_fact_hint">Нақты орындалу</string>
+    <string name="plan_fact_add_fact_placeholder">орындалған тапсырмалар саны</string>
+    <string name="plan_fact_generate_report">Есепті қалыптастыру</string>
+
+    <!--    Time Track -->
+    <string name="time_track_tasks">%s күннің тапсырмалары</string>
+    <string name="time_track_tasks_today">Бүгінгі күннің тапсырмалары</string>
+    <string name="time_track_check_in">Жұмыста болу</string>
+    <string name="time_track_check_out">Жұмыс күнін аяқтау </string>
+    <string name="time_track_check_out_action">Аяқтау</string>
+    <string name="time_track_at_work">Мен жұмыстамын</string>
+    <string name="time_track_time_off">Сұрану</string>
+    <string name="time_track_time_off_done">Сұранды</string>
+    <string name="time_track_time_off_description">Сұрануыңыздың себебін жазыңыз</string>
+    <string name="time_track_time_off_reject_title">Бас тарту себебі</string>
+    <string name="time_track_time_off_reject_description">Бас тартқыңыз келетін себебін жазыңыз</string>
+    <string name="time_track_time_off_reject">Бас тарту</string>
+
+    <!--    Check In -->
+    <string name="check_in_loading_title">Орналасқан жеріңіз тексерілуде</string>
+    <string name="check_in_loading_description">Орналасқан жеріңізді тексерудеміз, күте тұрыңыз…</string>
+    <string name="check_in_zone_title">Тексеру аяқталды!</string>
+    <string name="check_in_in_zone_description">Сіз жұмыс радиусындасыз! Жұмысты бастауға болады.</string>
+    <string name="check_not_in_zone_title">Сіз жұмыс радиусынан тыс жердесіз. </string>
+    <string name="check_in_not_in_zone_description">Сіз жұмысты бастай алмайсыз. Жұмыс орныңызға келіңіз.</string>
+    <string name="check_in_requirements_title">Сіз жұмыс күнін аяқтай алмайсыз</string>
+    <string name="check_in_requirements_done">Орындалды</string>
+
+    <string name="check_out_in_zone_description">Сіз жұмыс радиусындасыз! Жұмыс күнін аяқтауға болады.</string>
+    <string name="check_out_not_in_zone_description">Сіз жұмысты бастай алмайсыз. Жұмыс орныңызға келіңіз.</string>
+
+    <string name="check_without_zone_title">Тексеру аяқталды!</string>
+    <string name="check_in_without_zone_description">Жұмысты бастауға болады.</string>
+    <string name="check_out_without_zone_description">Жұмыс күнін аяқтауға болады.</string>
+
+    <string name="check_out_initial_date">Жұмысты аяқтайтын күн: %s</string>
+
+    <string name="checklist">Чеклист</string>
+    <string name="checklist_inspect">Тексеру</string>
+    <string name="checklist_execute">Орындау</string>
+    <string name="checklist_hide_attachments">Тіркемелерді жасыру</string>
+    <string name="checklist_show_attachments">Тіркемелерді көрсету</string>
+    <string name="checklist_day_off_description">Бүгін сізде демалыс күні!\nЖақсы демалыңыз, күш жинаңыз!</string>
+    <string name="checklist_on_vacation_description">Демалысыңыздан ләззат алыңыз! \nМүмкіндігінше көп жерлерге барып,\nбарынша әсер алыңыз!\nЖұмысқа шығу күніңіз: %s</string>
+    <string name="checklist_placeholder_description">Қазіргі уақытта сізде чеклисттар жоқ</string>
+
+    <!--    Account Settings -->
+    <string name="account_settings_title">Профильді өңдеу</string>
+    <string name="account_settings_full_name">Толық аты</string>
+    <string name="account_settings_first_name">Аты</string>
+    <string name="account_settings_last_name">Тегі</string>
+    <string name="account_settings_middle_name">Әкесінің аты</string>
+    <string name="account_settings_phone_number">Телефон нөмір</string>
+    <string name="account_settings_role">Лауазымы</string>
+    <string name="account_settings_input_old_password">Ескі құпия сөзді енгізіңіз</string>
+    <string name="account_settings_input_new_password">Жаңа құпия сөзді енгізіңіз</string>
+    <string name="account_settings_input_new_password_repeat">Жаңа құпия сөзді қайталаңыз</string>
+    <string name="account_settings_save_password">Өзгерістерді сақтау</string>
+    <string name="account_settings_delete_avatar_title">Фотосуретті жою</string>
+    <string name="account_settings_delete_avatar_description">Сіз бұл фотосуретті шынымен жойғыңыз келе ме?</string>
+    <string name="account_settings_save_done">Өзгерістер сәтті сақталды</string>
+    <string name="account_settings_company_code_title">%s қызметкерлеріне арналған шақыру коды</string>
+    <string name="account_settings_delete_account">Профильді жою</string>
+    <string name="account_settings_delete_account_warning">Назар аударыңыз!</string>
+    <string name="account_settings_delete_account_title">Профильді жойғыңыз келетініне сенімдісіз бе?</string>
+    <string name="account_settings_delete_account_description_owner">Сондай-ақ, сіздің ұйымдарыңыздың қызметкерлері мен құрылтайшыларының шоттары және сіздің шотыңыздағы деректер есептік жазбамен жойылады. Бұл әрекеттен бас тартуға болмайды, сондықтан саналы түрде шешім қабылдағаныңызға көз жеткізіңіз.</string>
+    <string name="account_settings_delete_account_description_employee">Есептік жазбаңызда бар деректер де жойылады. Сіздің деректеріңіз %s дейін сақталады, қаласаңыз, есептік жазбаңызды осы күнге дейін қалпына келтіре аласыз</string>
+    <string name="account_settings_role_owner">Кәсіпкер</string>
+    <string name="account_settings_role_co_owner">Тең иесі</string>
+    <string name="account_settings_intent_chooser_title">Тәсілі</string>
+
+    <!--    Change Password Settings -->
+    <string name="change_password_succsess">Құпия сөз сәтті өзгертілді!</string>
+    <string name="change_password_incorrect_old_password">Ескі құпия сөз дұрыс емес</string>
+
+    <!--    Change Phone Number Settings -->
+    <string name="settings_edit_phone_number_title">Телефон нөмірін өңдеу</string>
+    <string name="settings_edit_phone_number_description">Өзгерткіңіз келетін телефон нөмірін енгізіңіз, оған нөмірді растау үшін смс-код келеді</string>
+    <string name="settings_edit_phone_number_updated">Телефон нөмірі сәтті өзгертілді!</string>
+    <string name="settings_edit_phone_number_error">Бұл нөмір тіркелген, әкімшіге хабарласыңыз</string>
+
+    <!--    About app Settings -->
+    <string name="about_app_version">Нұсқа %s</string>
+    <string name="about_app_description">Бұл қосымшаны BePRO Holding компаниясы жасап шығарды. Туындаған сұрақтарыңызды bepro.company.kz@gmail.com мекен-жайына қоя аласыздар</string>
+
+    <!--    Employee List -->
+    <string name="employees_list_title">Қызметкерлер</string>
+    <string name="employees_list_description">Айлық құрмет тақтасы</string>
+    <string name="employees_list_place">орын</string>
+    <string name="employees_list_search_title">Қызметкерді іздеу</string>
+    <string name="employees_list_search_history">Сіз бұрын іздегенсіз</string>
+    <string name="employees_list_search_history_clear">Тазалау</string>
+    <string name="employees_list_all">Барлығы</string>
+    <string name="account_settings_change_avatar">Фотосуретті өзгерту</string>
+    <string name="account_settings_save">Өзгерістерді сақтау</string>
+    <string name="employees_list_placeholder_title">Тізім бос</string>
+    <string name="employees_list_placeholder_description_owner">Бұл бөлімде сізде әлі қызметкерлер жоқ</string>
+    <string name="employees_list_placeholder_description_employee">Бұл бөлімде сіздің санатыңыздағы қызметкерлер жоқ</string>
+
+    <!--    Tasks -->
+    <string name="tasks_title">PRO тақтасы</string>
+    <string name="tasks_title_2">Тапсырма %s</string>
+    <string name="tasks_description">Қызметкерлерге арналған тапсырмалар тізімі</string>
+    <string name="tasks_week">Апта</string>
+    <string name="tasks_today">Бүгін</string>
+    <string name="tasks_backlog">Қазан</string>
+    <string name="tasks_done">Істелді</string>
+    <string name="tasks_my_tasks">Менің тапсырмаларым</string>
+    <string name="tasks_assigned_to_me">Маған тағайындалғандар</string>
+    <string name="tasks_audio_tooltip_initial">Аудио жазу үшін басып тұрыңыз. Мәтінге ауысу үшін басыңыз</string>
+    <string name="tasks_audio_tooltip_playing_cancel">Болдырмау үшін ауданнан шығыңыз</string>
+
+    <string name="tasks_new_task">Жаңа тапсырма</string>
+    <string name="tasks_text">Мәтін</string>
+    <string name="tasks_attach">Тіркеу</string>
+    <string name="tasks_file_or_photo">Файл немесе фото</string>
+    <string name="tasks_for_whom">Кім үшін?</string>
+    <string name="tasks_inspector">Тексеруші</string>
+    <string name="tasks_where">Қайда</string>
+    <string name="tasks_priority">Қиындығы</string>
+    <string name="tasks_select_inspector">Тексерушіні таңдаңыз</string>
+    <string name="tasks_select_executor">Орындаушыны таңдаңыз</string>
+    <string name="tasks_select_where">Тапсырманың уақытын таңдаңыз</string>
+    <string name="tasks_select_date">Күнді таңдаңыз</string>
+    <string name="tasks_select_priority">Басымдықты таңдаңыз</string>
+    <string name="tasks_placeholder_text">Мәтінді енгізіңіз</string>
+    <string name="tasks_when">Қашан?</string>
+    <string name="tasks_choose_date">Күнді таңдаңыз</string>
+    <string name="tasks_description_task">Тапсырма сипаттамасы</string>
+    <string name="tasks_status_low">Төмен</string>
+    <string name="tasks_status_medium">Орташа</string>
+    <string name="tasks_status_high">Үлкен</string>
+    <string name="tasks_status_highest">Ең үлкен</string>
+    <string name="tasks_complete">Орындалды</string>
+    <string name="tasks_for_complete">Дейін орындаңыз</string>
+    <string name="tasks_author">Автор</string>
+    <string name="tasks_executor">Орындаушы</string>
+    <string name="tasks_author_executor">Автор / Орындаушы</string>
+    <string name="tasks_author_inspector">Автор / Тексеруші</string>
+    <string name="tasks_inspector_executor">Тексеруші / Орындаушы</string>
+    <string name="tasks_author_inspector_executor">Автор / Орындаушы / Тексеруші</string>
+    <string name="tasks_approve">Бекіту</string>
+    <string name="tasks_reject">Бас тарту</string>
+    <string name="tasks_move_request_action_title">%1$s тапсырманы орындау мерзімін %2$s %3$s ауыстыруды сұрады</string>
+    <string name="tasks_open_camera">Суретке түсіру</string>
+    <string name="tasks_choose_photo">Галереядан таңдаңыз</string>
+    <string name="tasks_take_video">Бейне түсіру</string>
+    <string name="tasks_choose_file">Файлдар</string>
+    <string name="tasks_error_file_loading">Файлдар жазылуда…</string>
+    <string name="tasks_error_drag">Алдымен тапсырманы ашыңыз</string>
+    <string name="tasks_photo_name">Фото</string>
+    <string name="tasks_video_name">Бейне</string>
+    <string name="tasks_file_name">Файл</string>
+    <string name="tasks_remind">Еске салу</string>
+    <string name="tasks_edit_task">Тапсырманы өңдеу</string>
+    <string name="tasks_edit_task_complete">Тапсырма сәтті өзгертілді</string>
+    <string name="tasks_remind_success">Еске салғыш сәтті жіберілді</string>
+
+    <!--    Tariff  -->
+    <string name="tariff_title">Тарифтер</string>
+    <string name="tariff_tariff">Тариф</string>
+    <string name="tariff_description">Жазылым және артықшылықтар</string>
+    <string name="tariff_accepted">Қосылды</string>
+    <string name="tariff_connect">Қосу</string>
+    <string name="tariff_tariffs">Тарифтер</string>
+    <string name="tariff_subscription_end">Ай сайынғы жазылым, мерзімі бітеді %s</string>
+    <string name="tariff_price">Бағасы: %s KZT</string>
+    <string name="tariff_only_price">%s ₸</string>
+    <string name="tariff_benefits">Жазылым артықшылықтары</string>
+    <string name="tariff_other_tariffs">Басқа тарифтерді қарау</string>
+    <string name="tariff_individual_pro">Жеке жазылым Be pro %s</string>
+    <string name="tariff_days_left_alert">Жазылым аяқталғанға дейін %s күн қалды</string>
+    <string name="tariff_expires">%s жазылымы, %s мерзімі аяқталады</string>
+
+    <string name="tariff_tariff_name">%s тарифі</string>
+    <string name="tariff_name_tariff">Тариф %s</string>
+    <string name="tariff_employee_count">%s дейін қызметкерлер</string>
+    <string name="tariff_price_per_month">Бағасы 1 ай үшін көрсетілген</string>
+    <string name="tariff_prolong">Ұзарту</string>
+    <string name="tariff_prolong_title">Жазылу мерзімін таңдаңыз</string>
+    <string name="tariff_prolong_next">Ағымдағы аяқталғаннан кейін тарифті ұзарту</string>
+    <string name="tariff_prolong_cost_tariff">Құны %s:</string>
+    <string name="tariff_prolong_deduction">Қалдықты шегеру:</string>
+    <string name="tariff_prolong_credited">Балансқа есептеледі:</string>
+    <string name="tariff_prolong_total">Барлығы:</string>
+    <string name="tariff_reconnect">Қайта қосу</string>
+    <string name="tariff_send_request">Өтінімді жіберу</string>
+    <string name="tariff_send_request_done">Өтінім сәтті жіберілді</string>
+    <string name="tariff_send_request_done_description">Күте тұрыңыз, менеджер сізбен төлем және шотты тіркеу туралы хабарласады</string>
+    <string name="tariff_period">Жарамдылық мерзімі: %s ай</string>
+    <string name="tariff_start_date">Басталу күні: %s</string>
+    <string name="tariff_end_date">Аяқталу күні: %s</string>
+    <string name="tariff_status_new">Күтілуде</string>
+    <string name="tariff_status_accepted">Белсенді</string>
+    <string name="tariff_status_expired">Аяқталды</string>
+    <string name="tariff_status_declined">Қабылданбады</string>
+    <string name="tariff_status_prepaid">Төленді</string>
+    <string name="tariff_status_canceled">Сменил тариф</string>
+
+    <!--    Score And Plan  -->
+    <string name="score_plan_title">Ұпайлар және статистика</string>
+
+    <!--    Employee Feed  -->
+    <string name="employee_feed_title">Қызметкерлердің лентасы</string>
+    <string name="employee_feed_work_date">Жұмыс істейді %s</string>
+    <string name="employee_feed_analysis">Талдау жасау</string>
+    <string name="employee_feed_placeholder_title">Өзгерістер жоқ</string>
+    <string name="employee_feed_placeholder_description">Қазіргі уақытта cіздің компанияңызда бәрі тұрақты</string>
+
+    <plurals name="seconds_ago">
+        <item quantity="one">%d секунд бұрын</item>
+        <item quantity="other">%d секунд бұрын</item>
+    </plurals>
+
+    <plurals name="minutes_ago">
+        <item quantity="one">%d минут бұрын</item>
+        <item quantity="other">%d минут бұрын</item>
+    </plurals>
+
+    <plurals name="hours_ago">
+        <item quantity="one">%d сағат бұрын</item>
+        <item quantity="other">%d сағат бұрын</item>
+    </plurals>
+
+    <plurals name="days_ago">
+        <item quantity="one">%d күн бұрын</item>
+        <item quantity="other">%d күн бұрын</item>
+    </plurals>
+
+    <plurals name="weeks_ago">
+        <item quantity="one">%d апта бұрын</item>
+        <item quantity="other">%d апта бұрын</item>
+    </plurals>
+
+    <plurals name="months_ago">
+        <item quantity="one">%d ай бұрын</item>
+        <item quantity="other">%d ай бұрын</item>
+    </plurals>
+
+    <plurals name="years_ago">
+        <item quantity="one">%d жыл бұрын</item>
+        <item quantity="other">%d жыл бұрын</item>
+    </plurals>
+
+    <!--     Businessman Home -->
+    <string name="businessman_home_projects">%s жоба</string>
+    <string name="businessman_chart_month">Ай</string>
+    <string name="businessman_chart_period">Кезең</string>
+    <string name="businessman_chart_info_attendance_text">Белгілі бір кезеңде жұмыста болған қызметкерлердің саны</string>
+    <string name="businessman_chart_info_errors_text">Белгілі бір кезеңде жұмыста болған қателердің саны</string>
+    <string name="businessman_chart_info_lates_text">Белгілі бір кезеңде жұмысқа кешіккен уақыт саны</string>
+
+    <string name="businessman_chart_errors_count">%s қызметкерлер</string>
+    <string name="businessman_chart_attendance_count">%s қызметкерлер</string>
+    <string name="businessman_chart_lates_count">%s қызметкерлер</string>
+    <string name="businessman_chart_title">Қызметкерлердің орташа балы</string>
+
+    <!--     Form Send Test  -->
+    <string name="form_send_test_title">Тест жіберу</string>
+    <string name="form_send_test_full_name">Қызметкердің ТАӘ</string>
+    <string name="form_send_test_full_name_placeholder">ТАӘ енгізіңіз</string>
+    <string name="form_send_test_type_test">Тест түрі</string>
+    <string name="form_send_test_type_test_placeholder">Тест түрін таңдаңыз</string>
+    <string name="form_send_test_birth_date">Қызметкердің туған күні</string>
+    <string name="form_send_test_birth_date_placeholder">Туған күнді таңдаңыз</string>
+    <string name="form_send_test_email">Электрондық пошта</string>
+    <string name="form_send_test_email_placeholder">Электрондық поштаны енгізіңіз</string>
+    <string name="form_send_test_phone_number">Қызметкердің телефон нөмірі</string>
+    <string name="form_send_test_send">Жіберу</string>
+    <string name="form_send_test_heart">Жүрек Сынағы</string>
+    <string name="form_send_test_brain">Ми Сынағы</string>
+    <string name="form_send_test_heart_pro">Жүрек Сынағы PRO</string>
+    <string name="form_send_test_brain_pro">Ми Сынағы PRO</string>
+    <string name="form_send_test_version">Тест нұсқасы</string>
+    <string name="form_send_test_version_placeholder">Опцияны таңдаңыз</string>
+    <string name="form_send_test_already_exists_title">Сіз тестті қайта тағайындағыңыз келетініне сенімдісіз бе?</string>
+
+
+    <!--    Link Test  -->
+    <string name="link_test_title">Тестке сілтеме сәтті құрылды</string>
+    <string name="link_test_description">Сілтемені бөлісу үшін төмендегі түймені басыңыз</string>
+    <string name="link_test_send_link">Сілтеме жіберу</string>
+    <string name="link_test_copy_sucsses">Сілтеме сәтті көшірілді</string>
+
+    <!--    Analysis   -->
+    <string name="analysis_title">Анализ</string>
+    <string name="analysis_description">Сіздің қызметкеріңіз вирусты жұқтыруы мүмкін. Оны басқаларға жұқтырмас үшін оны алдын ала емдеу керек.</string>
+    <string name="analysis_diseases_sip_a">SIP-A ауруы: Кешігіп</string>
+    <string name="analysis_diseases_sip_b">SIP-B ауруы: Тапсырманы орындамау</string>
+    <string name="analysis_diseases_sip_c">SIP-c ауруы: Болмауы</string>
+
+    <!--    Bonus Program -->
+    <string name="bonus_title">Менің бонустарым</string>
+    <string name="bonus_placeholder_title">Сізде әлі бонустар жоқ</string>
+    <string name="bonus_placeholder_description">Қазіргі уақытта сізде \n шақырылған пайдаланушылар жоқ.</string>
+    <string name="bonus_invite_businessman">Кәсіпкерді шақыру</string>
+    <string name="bonus_information">Бұл қалай жұмыс істейді?</string>
+    <string name="bonus_information_description">Кәсіпкердің досын BePRO Gumby-ге шақырыңыз және дос сатып алудан 5% жеңілдік алыңыз.\n\nОл үшін олармен жеке кодты бөлісіңіз.</string>
+    <string name="bonus_information_title">Кодты басқалармен бөлісіңіз және бонустар алыңыз</string>
+    <string name="bonus_information_first_title">Кәсіпкер А B кәсіпкерін шақырады</string>
+    <string name="bonus_information_first_description">Егер B кәсіпкері жазылымды төлесе, А кәсіпкері соманың 5% алады.</string>
+    <string name="bonus_received_title">Менің анықтамалық жүйемдегі компаниялардың тізімі</string>
+    <string name="bonus_received_company">%s компания</string>
+    <string name="bonus_received_total_discount">Жалпы жеңілдік сомасы: %s ₸</string>
+    <string name="bonus_received_total_bonus">Бонустардың жалпы сомасы:</string>
+    <string name="bonus_received_total_bonus_amount">%s ₸</string>
+    <string name="bonus_invite_title">Достарыңызды шақырыңыз және бонустар алыңыз!</string>
+
+    <!--    Documents -->
+    <string name="documents_title">Құжат айналымы</string>
+    <string name="documents_filter_type">Құжат түрі</string>
+    <string name="documents_filter_status">Мәртебесі</string>
+    <string name="documents_account_title">Құжаттар</string>
+    <string name="documents_empty_title">Тізім бос</string>
+    <string name="documents_empty_description">Қазіргі уақытта құжаттарыңыз жоқ</string>
+    <string name="documents_empty_action">Құжатты жасау</string>
+    <string name="documents_see_file_action">Құжатты алдын ала қарау</string>
+    <string name="documents_type_item">Мәртебе: %s</string>
+    <string name="documents_status_done">Дайын</string>
+    <string name="documents_status_waiting">Күтілуде</string>
+    <string name="documents_status_to_sign">Қол қойыңыз</string>
+    <string name="documents_status_draft">Жоба</string>
+    <string name="documents_sucess_sign">%s сәтті қол қойылды</string>
+    <string name="documents_sucess_send_title">Шарт қызметкерге сәтті жіберілді</string>
+    <string name="documents_sucess_send_description">Қызметкердің қолын күтіңіз</string>
+    <string name="documents_templates_select_title">Құжат түрін таңдаңыз</string>
+    <string name="documents_status_select_title">Мәртебені таңдаңыз</string>
+    <string name="documents_template_fill_title">Сауалнама өрістерін толтырыңыз</string>
+    <string name="documents_template_create_send_to_employee">Қызметкерге жіберу</string>
+    <string name="documents_template_create_sign">Қол қою</string>
+    <string name="documents_info_title">Құжаттардағы мәртебелер нені білдіреді?</string>
+
+    <string name="documents_info_status_to_sign">"қол қою" мәртебесі</string>
+    <string name="documents_info_status_to_sign_description">Бұл мәртебе құжатпен танысып, оған қол қоюды білдіреді</string>
+
+    <string name="documents_info_status_waiting">"күтілуде" мәртебесі</string>
+    <string name="documents_info_status_waiting_description">Бұл мәртебе құжатпен танысып, оған қол қоюды білдіреді</string>
+
+    <string name="documents_info_status_done">"дайын" мәртебесі</string>
+    <string name="documents_info_status_done_description">Бұл мәртебе құжатпен танысып, оған қол қоюды білдіреді</string>
+
+    <string name="documents_info_status_draft">"жоба" мәртебесі</string>
+    <string name="documents_info_status_draft_description">Бұл мәртебе сауалнаманың толық толтырылмағанын және өзгерту мүмкіндігі бар екенін білдіреді</string>
+
+    <string name="documents_template_fill_title_action">Сауалнаманы толтыру</string>
+    <string name="documents_template_property_no">№%d мүлік</string>
+    <string name="documents_template_property_delete_alert">Бұл мүлікті шынымен жойғыңыз келе ме?</string>
+    <string name="documents_template_add_property">Мүлікті қосу</string>
+    <string name="documents_template_property_name">Аты</string>
+    <string name="documents_template_property_name_hint">Атын енгізіңіз</string>
+    <string name="documents_template_property_date">Тасымалдау күні</string>
+    <string name="documents_template_property_date_hint">Тасымалдау күні</string>
+    <string name="documents_template_property_notes">Ескерту</string>
+    <string name="documents_template_property_notes_hint">Жазба енгізіңіз</string>
+
+    <string name="documents_exit_alert_title">Деректерді сақтау керек пе?</string>
+    <string name="documents_exit_alert_description">Аяқталған өрістерді келесі жолы сақтау үшін сақтағыңыз келе ме? Құжат "жоба" ретінде сақталады.</string>
+
+    <string name="documents_delete_alert_title">Құжатты өшіргіңіз келеді ме?</string>
+    <string name="documents_resend_action">Отправить на перезаполнение</string>
+
+    <!--   Gamby Card  -->
+    <string name="gamby_card_familiarized">Таныстым</string>
+    <string name="gamby_card_task_number">Тапсырма №%s</string>
+    <string name="gamby_card_change_company">Басқа ұйымды таңдау</string>
+    <string name="gamby_card_test_results">Тест нәтижелері</string>
+    <string name="gamby_card_expired_tariff_1">Сіздің тарифіңіз %s</string>
+    <string name="gamby_card_expired_tariff_2">мерзімі өткен %s</string>
+    <string name="gamby_card_expired_tariff_3">, қолданбаның мүмкіндіктерін ашу үшін тарифтің мерзімін ұзартыңыз.</string>
+</resources>
